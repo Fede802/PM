@@ -488,37 +488,21 @@
   "2.1.3.3.1": [
     {
       "round": 1,
-      "alice": 6.0,
-      "federico": 12.0,
-      "tommaso": 8.0,
-      "mean": 8.6667,
-      "median": 8.0
-    },
-    {
-      "round": 2,
-      "alice": 12.0,
-      "federico": 12.0,
-      "tommaso": 10.0,
-      "mean": 11.3333,
-      "median": 12.0
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
     }
   ],
   "2.1.3.3.2": [
     {
       "round": 1,
-      "alice": 12.0,
-      "federico": 16.0,
-      "tommaso": 16.0,
-      "mean": 14.6667,
-      "median": 16.0
-    },
-    {
-      "round": 2,
-      "alice": 16.0,
-      "federico": 16.0,
-      "tommaso": 16.0,
-      "mean": 16.0,
-      "median": 16.0
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
     }
   ],
   "2.1.3.4.1": [

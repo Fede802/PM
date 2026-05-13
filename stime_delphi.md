@@ -1,6 +1,6 @@
 # Stime Delphi – EvenToNight
 
-_Generato il 2026-05-07 21:07_  
+_Generato il 2026-05-13 19:03_  
 _Unità: ore/uomo (ore/u)_
 
 ## 1 Marketing
@@ -219,15 +219,13 @@ _Unità: ore/uomo (ore/u)_
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
-| 1 | 6.0 | 12.0 | 8.0 | 8.7 | 8.0 |
-| 2 | 12.0 | 12.0 | 10.0 | 11.3 | 12.0 |
+| 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
 ### Attività 2.1.3.3.2 – Implementazione schermata di checkout
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
-| 1 | 12.0 | 16.0 | 16.0 | 14.7 | 16.0 |
-| 2 | 16.0 | 16.0 | 16.0 | 16.0 | 16.0 |
+| 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
 ### Attività 2.1.3.4.1 – Design funzionalità di like
 

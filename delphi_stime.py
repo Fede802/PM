@@ -871,7 +871,9 @@ def generate_gantt_word(state, divisor):
 
 # ── GANTT JSON ────────────────────────────────────────────────────────────
 
-OUTPUT_GANTT_JSON = "eventonight.gantt"
+OUTPUT_GANTT_JSON         = "eventonight.gantt"
+OUTPUT_GANTT_JSON_NOPRED  = "eventonight_nopred.gantt"
+OUTPUT_GANTT_JSON_COLORED = "eventonight_colored.gantt"
 
 _ADVANCED_DEFAULT = {
     "columns": [
@@ -897,6 +899,66 @@ _ADVANCED_DEFAULT = {
     "holidays": [],
 }
 
+_RESOURCE_NAMES = {1: "Alice Alfonsi", 2: "Federico Bravetti", 3: "Tommaso Brini"}
+_RESOURCE_MAP   = {
+    "aa": 1, "alice": 1, "alice alfonsi": 1,
+    "fb": 2, "federico": 2, "federico bravetti": 2,
+    "tb": 3, "tommaso": 3, "tommaso brini": 3,
+}
+# top-level resources: formato esatto del tool (resourceId = nome stringa)
+_GANTT_RESOURCES = [
+    {"resourceId": name, "resourceName": name}
+    for name in _RESOURCE_NAMES.values()
+]
+
+def _parse_resources(assegnato_raw):
+    """Converte 'AA, FB' → lista resource refs nel formato del tool online."""
+    import re
+    seen, result = set(), []
+    for token in re.split(r"[,;\s/]+", (assegnato_raw or "").lower()):
+        rid = _RESOURCE_MAP.get(token.strip())
+        if rid and rid not in seen:
+            seen.add(rid)
+            name = _RESOURCE_NAMES[rid]
+            result.append({"resourceId": name, "resourceName": name, "unit": 100})
+    return result
+
+# colori numerici proprietari del tool (letti da file salvato dal tool)
+# 1xx=blu, 2xx=verde, 3xx=arancio, poi palette successive per combinazioni
+_ASSIGNMENT_COLORS = {
+    frozenset([1]):       "121",   # AA solo
+    frozenset([2]):       "211",   # FB solo
+    frozenset([3]):       "301",   # TB solo
+    frozenset([1, 2]):    "401",   # AA + FB
+    frozenset([1, 3]):    "501",   # AA + TB
+    frozenset([2, 3]):    "601",   # FB + TB
+    frozenset([1, 2, 3]): "701",   # tutti e tre
+}
+
+def _assignment_color(assegnato_raw):
+    import re
+    seen = set()
+    for token in re.split(r"[,;\s/]+", (assegnato_raw or "").lower()):
+        rid = _RESOURCE_MAP.get(token.strip())
+        if rid:
+            seen.add(rid)
+    return _ASSIGNMENT_COLORS.get(frozenset(seen), "") if seen else ""
+
+def _clean_predecessor(raw):
+    """Normalizza predecessori al formato 'NNN SS' (Start-to-Start).
+
+    Estrae i numeri da qualsiasi formato (plain, 2FS, 3SS…) e ri-appone SS
+    così le frecce dipendenza sono di tipo Start-to-Start.
+    """
+    import re
+    parts = re.split(r"[,;\s]+", (raw or "").strip())
+    result = []
+    for p in parts:
+        m = re.match(r"^(\d+)", p.strip())
+        if m:
+            result.append(m.group(1) + "SS")
+    return ",".join(result)
+
 def generate_gantt_json(state, divisor):
     # preserva blocco advanced dall'esistente (zoom, timezone, workTime…)
     advanced = _ADVANCED_DEFAULT
@@ -911,7 +973,7 @@ def generate_gantt_json(state, divisor):
 
     # legge tutti i campi dal piano Word (a questo punto già risolto)
     word_fields  = _load_existing_gantt_fields(OUTPUT_GANTT)
-    predecessors = {n: f[1].strip() for n, f in word_fields.items() if f[1].strip()}
+    predecessors = {n: _clean_predecessor(f[1]) for n, f in word_fields.items() if f[1].strip()}
 
     # raccoglie attività stimate in ordine WBS, assegna ID sequenziali 1,2,3…
     # i subtask usano questi ID; le sezioni macro ricevono ID 1001,1002,1003
@@ -944,9 +1006,10 @@ def generate_gantt_json(state, divisor):
     def iso(dt):
         return dt.strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
+    n_subtasks = len(collected)          # 1-based IDs 1..n_subtasks per le foglie
     data = []
     for macro_idx, top in enumerate(group_order):
-        top_id   = 1001 + macro_idx   # ID alto, non referenziabile come predecessore
+        top_id   = n_subtasks + 1 + macro_idx   # IDs immediatamente dopo i subtask, nessun gap
         subtasks = []
         starts   = []
         ends     = []
@@ -955,6 +1018,7 @@ def generate_gantt_json(state, divisor):
             act_id, act_name, _, duration, inizio, fine = collected[seq_idx]
             sub_task_id = seq_idx + 1              # ID 1-based, coincide col TASK ID Word
             pred_str    = predecessors.get(act_name, "")
+            assegnato   = word_fields.get(act_name, ["", "", "", "", ""])[2]
 
             start_dt = inizio.replace(hour=6,  minute=0, second=0, microsecond=0)
             end_dt   = fine.replace(  hour=15, minute=0, second=0, microsecond=0)
@@ -968,11 +1032,13 @@ def generate_gantt_json(state, divisor):
                 "EndDate":      iso(end_dt),
                 "Duration":     duration,
                 "Predecessor":  pred_str,
-                "resources":    [],
+                "resources":    _parse_resources(assegnato),
                 "Progress":     0,
                 "color":        "",
                 "info":         "<p><br></p>",
                 "DurationUnit": "day",
+                "isManual":     True,
+                "_color":       _assignment_color(assegnato),   # usato dal colored
             })
 
         macro_start = min(starts)
@@ -996,39 +1062,47 @@ def generate_gantt_json(state, divisor):
 
     output = {
         "data":             data,
-        "resources":        [],
+        "resources":        _GANTT_RESOURCES,
         "projectStartDate": None,
         "projectEndDate":   None,
         "advanced":         advanced,
     }
 
+    # rimuove il campo temporaneo _color prima di scrivere il gantt principale
+    import copy
+    def _strip_tmp(data):
+        d = copy.deepcopy(data)
+        for group in d["data"]:
+            for sub in group.get("subtasks", []):
+                sub.pop("_color", None)
+        return d
+
     with open(OUTPUT_GANTT_JSON, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, separators=(",", ":"))
+        json.dump(_strip_tmp(output), f, ensure_ascii=False, separators=(",", ":"))
+
+    # variante senza predecessori
+    output_nopred = _strip_tmp(output)
+    for group in output_nopred["data"]:
+        group["Predecessor"] = None
+        for sub in group.get("subtasks", []):
+            sub["Predecessor"] = ""
+    with open(OUTPUT_GANTT_JSON_NOPRED, "w", encoding="utf-8") as f:
+        json.dump(output_nopred, f, ensure_ascii=False, separators=(",", ":"))
+
+    # variante colorata per assegnatario, senza predecessori
+    output_colored = copy.deepcopy(output)
+    for group in output_colored["data"]:
+        group["Predecessor"] = None
+        for sub in group.get("subtasks", []):
+            sub["color"] = sub.pop("_color", "")
+            sub["Predecessor"] = ""
+    with open(OUTPUT_GANTT_JSON_COLORED, "w", encoding="utf-8") as f:
+        json.dump(output_colored, f, ensure_ascii=False, separators=(",", ":"))
 
 
 # ── MAIN ──────────────────────────────────────────────────────────────────
 
-def main():
-    state = load_state()
-
-    done_count = sum(1 for a in ACTIVITIES if a[0] in state and state[a[0]])
-    total      = len(ACTIVITIES)
-
-    print(f"""
-{SEP}
-  STIME DELPHI – Espansione EvenToNight
-  {done_count}/{total} attività già con dati  |  Unità: ore/uomo (ore/u)
-  Comandi: [Invio] = conferma/altro round   [n] = prossima   [q] = esci e salva
-{SEP}""")
-
-    for act_id, act_name, section in ACTIVITIES:
-        rounds = state.setdefault(act_id, [])
-        keep_going = process_activity(act_id, act_name, section, rounds)
-        save_state(state)
-        if not keep_going:
-            break
-
-    # ── chiedi divisore per DURATA ──
+def _ask_divisor():
     print(f"\n{SEP}")
     print("  Generazione file di output...")
     print(f"  Il piano attività calcola DURATA = ⌈Effort / divisore⌉ giorni.")
@@ -1044,7 +1118,9 @@ def main():
     else:
         divisor = 8.0
     print(f"  Divisore confermato: {int(divisor) if divisor == int(divisor) else divisor}")
+    return divisor
 
+def _generate_all(state, divisor):
     md = generate_markdown(state)
     with open(OUTPUT_MD, "w", encoding="utf-8") as f:
         f.write(md)
@@ -1055,13 +1131,49 @@ def main():
     done_now = sum(1 for a in ACTIVITIES if a[0] in state and state[a[0]])
     print(f"\n{SEP}")
     print(f"  Salvataggio completato.")
-    print(f"  Attività con stime: {done_now}/{total}")
+    print(f"  Attività con stime: {done_now}/{len(ACTIVITIES)}")
     print(f"  JSON         → {SAVE_FILE}")
     print(f"  MD           → {OUTPUT_MD}")
     print(f"  Stime Word   → {OUTPUT_DOCX}")
     print(f"  Piano Word   → {OUTPUT_GANTT}")
     print(f"  Gantt        → {OUTPUT_GANTT_JSON}")
+    print(f"  Gantt nopred → {OUTPUT_GANTT_JSON_NOPRED}")
+    print(f"  Gantt colored→ {OUTPUT_GANTT_JSON_COLORED}")
     print(SEP)
+
+def main():
+    state = load_state()
+
+    done_count = sum(1 for a in ACTIVITIES if a[0] in state and state[a[0]])
+    total      = len(ACTIVITIES)
+
+    print(f"""
+{SEP}
+  STIME DELPHI – Espansione EvenToNight
+  {done_count}/{total} attività già con dati  |  Unità: ore/uomo (ore/u)
+  Comandi: [Invio] = conferma/altro round   [n] = prossima   [q] = esci e salva
+{SEP}""")
+
+    if done_count > 0:
+        print()
+        scelta = ask_menu({
+            "": "inserisci/modifica stime",
+            "r": "rigenera output (Word + Gantt) senza modificare stime",
+        })
+        if scelta == "r":
+            divisor = _ask_divisor()
+            _generate_all(state, divisor)
+            return
+
+    for act_id, act_name, section in ACTIVITIES:
+        rounds = state.setdefault(act_id, [])
+        keep_going = process_activity(act_id, act_name, section, rounds)
+        save_state(state)
+        if not keep_going:
+            break
+
+    divisor = _ask_divisor()
+    _generate_all(state, divisor)
 
 
 if __name__ == "__main__":
