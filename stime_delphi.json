@@ -1,0 +1,2242 @@
+{
+  "1.1.1.1": [
+    {
+      "round": 1,
+      "alice": 40.0,
+      "federico": 56.0,
+      "tommaso": 48.0,
+      "mean": 48.0,
+      "median": 48.0
+    },
+    {
+      "round": 2,
+      "alice": 48.0,
+      "federico": 48.0,
+      "tommaso": 48.0,
+      "mean": 48.0,
+      "median": 48.0
+    }
+  ],
+  "1.1.1.2": [
+    {
+      "round": 1,
+      "alice": 24.0,
+      "federico": 24.0,
+      "tommaso": 32.0,
+      "mean": 26.6667,
+      "median": 24.0
+    },
+    {
+      "round": 2,
+      "alice": 28.0,
+      "federico": 28.0,
+      "tommaso": 28.0,
+      "mean": 28.0,
+      "median": 28.0
+    }
+  ],
+  "1.1.1.3": [
+    {
+      "round": 1,
+      "alice": 72.0,
+      "federico": 64.0,
+      "tommaso": 100.0,
+      "mean": 78.6667,
+      "median": 72.0
+    },
+    {
+      "round": 2,
+      "alice": 72.0,
+      "federico": 72.0,
+      "tommaso": 72.0,
+      "mean": 72.0,
+      "median": 72.0
+    }
+  ],
+  "1.1.2": [
+    {
+      "round": 1,
+      "alice": 24.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 18.6667,
+      "median": 16.0
+    },
+    {
+      "round": 2,
+      "alice": 24.0,
+      "federico": 20.0,
+      "tommaso": 20.0,
+      "mean": 21.3333,
+      "median": 20.0
+    }
+  ],
+  "1.2.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 6.0,
+      "tommaso": 2.0,
+      "mean": 4.0,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    }
+  ],
+  "1.2.1.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "1.2.1.3": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "1.2.2.1.1": [
+    {
+      "round": 1,
+      "alice": 32.0,
+      "federico": 48.0,
+      "tommaso": 40.0,
+      "mean": 40.0,
+      "median": 40.0
+    },
+    {
+      "round": 2,
+      "alice": 32.0,
+      "federico": 32.0,
+      "tommaso": 32.0,
+      "mean": 32.0,
+      "median": 32.0
+    }
+  ],
+  "1.2.2.1.2": [
+    {
+      "round": 1,
+      "alice": 40.0,
+      "federico": 40.0,
+      "tommaso": 40.0,
+      "mean": 40.0,
+      "median": 40.0
+    }
+  ],
+  "1.2.2.1.3": [
+    {
+      "round": 1,
+      "alice": 56.0,
+      "federico": 40.0,
+      "tommaso": 56.0,
+      "mean": 50.6667,
+      "median": 56.0
+    },
+    {
+      "round": 2,
+      "alice": 56.0,
+      "federico": 56.0,
+      "tommaso": 56.0,
+      "mean": 56.0,
+      "median": 56.0
+    }
+  ],
+  "1.2.2.1.4": [
+    {
+      "round": 1,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 10.0,
+      "mean": 14.0,
+      "median": 16.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "1.2.2.2.1": [
+    {
+      "round": 1,
+      "alice": 40.0,
+      "federico": 8.0,
+      "tommaso": 16.0,
+      "mean": 21.3333,
+      "median": 16.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "1.2.2.2.2": [
+    {
+      "round": 1,
+      "alice": 40.0,
+      "federico": 40.0,
+      "tommaso": 40.0,
+      "mean": 40.0,
+      "median": 40.0
+    }
+  ],
+  "1.2.2.2.3": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "1.2.2.2.4": [
+    {
+      "round": 1,
+      "alice": 20.0,
+      "federico": 24.0,
+      "tommaso": 24.0,
+      "mean": 22.6667,
+      "median": 24.0
+    },
+    {
+      "round": 2,
+      "alice": 24.0,
+      "federico": 24.0,
+      "tommaso": 24.0,
+      "mean": 24.0,
+      "median": 24.0
+    }
+  ],
+  "2.1.1.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.1.1.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 13.3333,
+      "median": 16.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "2.1.1.2.1": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 2.0,
+      "tommaso": 4.0,
+      "mean": 4.6667,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.1.2.2": [
+    {
+      "round": 1,
+      "alice": 16.0,
+      "federico": 4.0,
+      "tommaso": 8.0,
+      "mean": 9.3333,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.2.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 6.6667,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.2.1.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.2.2.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 3.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.2.2.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.2.3.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.3333,
+      "median": 1.0
+    },
+    {
+      "round": 2,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "2.1.2.3.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 1.0,
+      "tommaso": 2.0,
+      "mean": 2.3333,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.2.4.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.2.4.2": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 3.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.3.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 8.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.3.1.2": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 16.0,
+      "tommaso": 8.0,
+      "mean": 10.0,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.3.2.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.3.2.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 6.0,
+      "tommaso": 4.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.6667,
+      "median": 6.0
+    }
+  ],
+  "2.1.3.3.1": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 12.0,
+      "tommaso": 8.0,
+      "mean": 8.6667,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 12.0,
+      "federico": 12.0,
+      "tommaso": 10.0,
+      "mean": 11.3333,
+      "median": 12.0
+    }
+  ],
+  "2.1.3.3.2": [
+    {
+      "round": 1,
+      "alice": 12.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 14.6667,
+      "median": 16.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "2.1.3.4.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.3333,
+      "median": 1.0
+    },
+    {
+      "round": 2,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "2.1.3.4.2": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 2.0,
+      "mean": 1.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.4.1.1": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 4.0,
+      "mean": 6.6667,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 6.0,
+      "mean": 7.3333,
+      "median": 8.0
+    }
+  ],
+  "2.1.4.1.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 12.0,
+      "tommaso": 16.0,
+      "mean": 12.0,
+      "median": 12.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "2.1.4.3.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 6.0,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.4.3.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 16.0,
+      "tommaso": 12.0,
+      "mean": 12.0,
+      "median": 12.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "2.1.5.1.1": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 8.0,
+      "tommaso": 4.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 6.0,
+      "mean": 7.3333,
+      "median": 8.0
+    }
+  ],
+  "2.1.5.1.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 12.0,
+      "tommaso": 8.0,
+      "mean": 9.3333,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 10.0,
+      "federico": 12.0,
+      "tommaso": 8.0,
+      "mean": 10.0,
+      "median": 10.0
+    }
+  ],
+  "2.1.5.2.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 2.0,
+      "mean": 3.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.5.2.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 6.6667,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.5.3.1": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 5.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.6667,
+      "median": 4.0
+    }
+  ],
+  "2.1.5.3.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.6.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 4.0,
+      "mean": 3.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.6.1.2": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.6667,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.6.2.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.6.2.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 6.0,
+      "tommaso": 8.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 7.0,
+      "tommaso": 8.0,
+      "mean": 7.0,
+      "median": 7.0
+    }
+  ],
+  "2.1.6.3.1": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 7.3333,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.6.3.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 16.0,
+      "tommaso": 12.0,
+      "mean": 12.0,
+      "median": 12.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "2.1.6.4.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 2.0,
+      "median": 1.0
+    },
+    {
+      "round": 2,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "2.1.6.4.2": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 2.0,
+      "mean": 1.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "2.1.6.5.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "2.1.6.5.2": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.3333,
+      "median": 1.0
+    },
+    {
+      "round": 2,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "2.1.6.6.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 6.0,
+      "tommaso": 4.0,
+      "mean": 4.6667,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.6.6.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 8.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    }
+  ],
+  "2.1.6.7.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.6.7.2": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.6.8.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 1.0,
+      "mean": 3.0,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.6.8.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.6.9.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.6.9.2": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.6.10.1": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 4.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 4.0,
+      "tommaso": 6.0,
+      "mean": 5.3333,
+      "median": 6.0
+    }
+  ],
+  "2.1.6.10.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.6.11.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.6.11.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 8.0,
+      "tommaso": 4.0,
+      "mean": 5.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    }
+  ],
+  "2.1.7.1.1": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 4.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    }
+  ],
+  "2.1.7.1.2": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 7.3333,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.8.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 2.0,
+      "mean": 3.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.8.1.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 6.0,
+      "tommaso": 8.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    }
+  ],
+  "2.1.8.2.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.8.2.2": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 7.3333,
+      "median": 8.0
+    }
+  ],
+  "2.1.8.3.1": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.8.3.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.9.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.9.1.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.9.2.1": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 2.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    }
+  ],
+  "2.1.9.2.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.1.10.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.10.1.2": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    }
+  ],
+  "2.1.11.1.1": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 4.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.1.11.1.2": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 8.0,
+      "mean": 6.6667,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.12.1.1": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.12.1.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 12.0,
+      "tommaso": 16.0,
+      "mean": 12.0,
+      "median": 12.0
+    },
+    {
+      "round": 2,
+      "alice": 12.0,
+      "federico": 12.0,
+      "tommaso": 16.0,
+      "mean": 13.3333,
+      "median": 12.0
+    }
+  ],
+  "2.1.13.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 16.0,
+      "tommaso": 8.0,
+      "mean": 9.3333,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "2.2.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "2.2.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 6.0,
+      "mean": 4.6667,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    }
+  ],
+  "2.3.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 12.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 12.0,
+      "tommaso": 8.0,
+      "mean": 9.3333,
+      "median": 8.0
+    }
+  ],
+  "2.3.1.2": [
+    {
+      "round": 1,
+      "alice": 24.0,
+      "federico": 32.0,
+      "tommaso": 24.0,
+      "mean": 26.6667,
+      "median": 24.0
+    },
+    {
+      "round": 2,
+      "alice": 32.0,
+      "federico": 32.0,
+      "tommaso": 30.0,
+      "mean": 31.3333,
+      "median": 32.0
+    }
+  ],
+  "2.3.1.3": [
+    {
+      "round": 1,
+      "alice": 10.0,
+      "federico": 12.0,
+      "tommaso": 8.0,
+      "mean": 10.0,
+      "median": 10.0
+    },
+    {
+      "round": 2,
+      "alice": 10.0,
+      "federico": 12.0,
+      "tommaso": 12.0,
+      "mean": 11.3333,
+      "median": 12.0
+    }
+  ],
+  "2.3.1.4": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 6.0,
+      "tommaso": 8.0,
+      "mean": 7.3333,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.4.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 2.0,
+      "mean": 3.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.4.1.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.4.1.3": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 12.0,
+      "tommaso": 16.0,
+      "mean": 12.0,
+      "median": 12.0
+    },
+    {
+      "round": 2,
+      "alice": 12.0,
+      "federico": 12.0,
+      "tommaso": 12.0,
+      "mean": 12.0,
+      "median": 12.0
+    }
+  ],
+  "2.4.1.4": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.6667,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.4.1.5": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 12.0,
+      "tommaso": 16.0,
+      "mean": 12.0,
+      "median": 12.0
+    },
+    {
+      "round": 2,
+      "alice": 12.0,
+      "federico": 12.0,
+      "tommaso": 12.0,
+      "mean": 12.0,
+      "median": 12.0
+    }
+  ],
+  "3.1.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 1.0,
+      "mean": 2.3333,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.1.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "3.1.3": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.1.4": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 5.3333,
+      "median": 6.0
+    },
+    {
+      "round": 2,
+      "alice": 6.0,
+      "federico": 6.0,
+      "tommaso": 6.0,
+      "mean": 6.0,
+      "median": 6.0
+    }
+  ],
+  "3.1.5": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.1.6": [
+    {
+      "round": 1,
+      "alice": 24.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 9.3333,
+      "median": 2.0
+    }
+  ],
+  "3.2.1.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.2.1.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.2.1.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.2.2.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.2.2.2": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 3.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "3.2.2.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.2.2.4": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.3333,
+      "median": 1.0
+    },
+    {
+      "round": 2,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.1.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.1.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.1.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.2.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.2.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.2.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.3.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.3.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.3.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.4.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.4.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.4.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.5.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.5.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.5.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.6.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.6.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.6.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.7.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.7.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.7.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.8.1": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.8.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.3.8.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.4.1": [
+    {
+      "round": 1,
+      "alice": 16.0,
+      "federico": 20.0,
+      "tommaso": 16.0,
+      "mean": 17.3333,
+      "median": 16.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "3.4.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 13.3333,
+      "median": 16.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "3.4.3": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.4.4": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 4.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "3.5.1.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.5.1.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.5.1.3": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.5.2.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.5.2.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.5.2.3": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 2.0,
+      "mean": 1.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.5.3.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.5.3.2": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.5.3.3": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.3333,
+      "median": 1.0
+    },
+    {
+      "round": 2,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "3.6.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.6.2": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 5.0,
+      "tommaso": 4.0,
+      "mean": 5.0,
+      "median": 5.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "3.6.3": [
+    {
+      "round": 1,
+      "alice": 3.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.3333,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.6.4": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "3.6.5": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "3.6.6": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "3.6.7": [
+    {
+      "round": 1,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 20.0,
+      "mean": 17.3333,
+      "median": 16.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "3.7.1.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 1.0,
+      "tommaso": 2.0,
+      "mean": 1.6667,
+      "median": 2.0
+    },
+    {
+      "round": 2,
+      "alice": 2.0,
+      "federico": 2.0,
+      "tommaso": 2.0,
+      "mean": 2.0,
+      "median": 2.0
+    }
+  ],
+  "3.7.2.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ]
+}
