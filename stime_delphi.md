@@ -1,6 +1,6 @@
 # Stime Delphi – EvenToNight
 
-_Generato il 2026-05-13 19:03_  
+_Generato il 2026-05-18 13:02_  
 _Unità: ore/uomo (ore/u)_
 
 ## 1 Marketing

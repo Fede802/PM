@@ -500,18 +500,29 @@ def parse_user_date(s):
 def format_user_date(dt):
     return dt.strftime(DATE_OUTPUT_FORMAT)
 
+def _count_work_days(start_dt, end_dt):
+    """Conta i giorni lavorativi (lun-ven) da start_dt a end_dt, inclusivi."""
+    days = 0
+    current = start_dt.date() if hasattr(start_dt, "date") else start_dt
+    end = end_dt.date() if hasattr(end_dt, "date") else end_dt
+    while current <= end:
+        if current.weekday() < 5:
+            days += 1
+        current += timedelta(days=1)
+    return max(1, days)
+
+
 def resolve_schedule(durata_raw, inizio_raw, fine_raw,
                      default_duration, default_start):
     """Risolve (durata_giorni, inizio, fine) in modo consistente:
 
-      - entrambe le date presenti → durata = fine - inizio (in giorni)
-      - solo inizio → fine = inizio + durata
-      - solo fine   → inizio = fine - durata
-      - nessuna     → inizio = default_start, fine = inizio + durata
+      - entrambe le date presenti → durata = giorni di calendario inclusivi
+      - solo inizio → fine = inizio + (durata - 1)
+      - solo fine   → inizio = fine - (durata - 1)
+      - nessuna     → inizio = default_start, fine = inizio + (durata - 1)
 
     La durata di partenza è durata_raw (se intero valido), altrimenti
-    default_duration. Se la differenza fra date è ≤ 0 viene corretta a 1
-    (e le date vengono scambiate se invertite).
+    default_duration. Se le date sono invertite vengono scambiate.
     """
     try:
         duration = int(float((durata_raw or "").strip())) if (durata_raw or "").strip() else default_duration
@@ -528,14 +539,14 @@ def resolve_schedule(durata_raw, inizio_raw, fine_raw,
         if delta < 0:
             inizio, fine = fine, inizio
             delta = -delta
-        duration = max(1, delta)
+        duration = max(1, delta + 1)
     elif inizio and not fine:
-        fine = inizio + timedelta(days=duration)
+        fine = inizio + timedelta(days=max(0, duration - 1))
     elif fine and not inizio:
-        inizio = fine - timedelta(days=duration)
+        inizio = fine - timedelta(days=max(0, duration - 1))
     else:
         inizio = default_start
-        fine   = inizio + timedelta(days=duration)
+        fine   = inizio + timedelta(days=max(0, duration - 1))
 
     return duration, inizio, fine
 
@@ -923,16 +934,17 @@ def _parse_resources(assegnato_raw):
             result.append({"resourceId": name, "resourceName": name, "unit": 100})
     return result
 
-# colori numerici proprietari del tool (letti da file salvato dal tool)
-# 1xx=blu, 2xx=verde, 3xx=arancio, poi palette successive per combinazioni
+# colori numerici proprietari del tool (solo codici della palette nativa).
+# Per le combinazioni si usa il colore del primo assegnatario in ordine
+# alfabetico/ID, perché i codici 4xx-7xx non corrispondono a colori validi.
 _ASSIGNMENT_COLORS = {
     frozenset([1]):       "121",   # AA solo
     frozenset([2]):       "211",   # FB solo
     frozenset([3]):       "301",   # TB solo
-    frozenset([1, 2]):    "401",   # AA + FB
-    frozenset([1, 3]):    "501",   # AA + TB
-    frozenset([2, 3]):    "601",   # FB + TB
-    frozenset([1, 2, 3]): "701",   # tutti e tre
+    frozenset([1, 2]):    "121",   # AA + FB  → colore AA
+    frozenset([1, 3]):    "121",   # AA + TB  → colore AA
+    frozenset([2, 3]):    "211",   # FB + TB  → colore FB
+    frozenset([1, 2, 3]): "121",   # tutti    → colore AA
 }
 
 def _assignment_color(assegnato_raw):
@@ -1025,12 +1037,17 @@ def generate_gantt_json(state, divisor):
             starts.append(start_dt)
             ends.append(end_dt)
 
+            # Duration in giorni lavorativi (lun-ven) per allinearsi al workWeek
+            # del tool: così il tool calcola End = ultimo giorno lavorativo
+            # coincidente con la DATA FINE del piano Word.
+            work_duration = _count_work_days(start_dt, end_dt)
+
             subtasks.append({
                 "TaskID":       sub_task_id,
                 "TaskName":     f"{act_id} {act_name}",
                 "StartDate":    iso(start_dt),
                 "EndDate":      iso(end_dt),
-                "Duration":     duration,
+                "Duration":     work_duration,
                 "Predecessor":  pred_str,
                 "resources":    _parse_resources(assegnato),
                 "Progress":     0,
@@ -1043,7 +1060,7 @@ def generate_gantt_json(state, divisor):
 
         macro_start = min(starts)
         macro_end   = max(ends)
-        macro_dur   = max(1, (macro_end.date() - macro_start.date()).days)
+        macro_dur   = _count_work_days(macro_start, macro_end)
 
         data.append({
             "TaskID":       top_id,
