@@ -24,201 +24,201 @@ from docx.oxml import OxmlElement
 ACTIVITIES = [
     # ── 1. MARKETING ──────────────────────────────────────────────────────
     ("1.1.1.1",  "Ricerca Organizzazioni",
-     "1 Marketing > 1.1 Coinvolgimento Organizzazioni > 1.1.1 Gestione Acquisizione"),
+     "1 Marketing > 1.1 Coinvolgimento Organizzazioni > 1.1.1 Gestione Acquisizione Nuove Organizzazioni"),
     ("1.1.1.2",  "Contatto Organizzazioni",
-     "1 Marketing > 1.1 Coinvolgimento Organizzazioni > 1.1.1 Gestione Acquisizione"),
+     "1 Marketing > 1.1 Coinvolgimento Organizzazioni > 1.1.1 Gestione Acquisizione Nuove Organizzazioni"),
     ("1.1.1.3",  "Onboarding Organizzazioni",
-     "1 Marketing > 1.1 Coinvolgimento Organizzazioni > 1.1.1 Gestione Acquisizione"),
+     "1 Marketing > 1.1 Coinvolgimento Organizzazioni > 1.1.1 Gestione Acquisizione Nuove Organizzazioni"),
     ("1.1.2",    "Gestione Contatto Organizzazioni già Registrate",
      "1 Marketing > 1.1 Coinvolgimento Organizzazioni"),
     ("1.2.1.1",  "Individuazione Profilo medio utente",
      "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.1 Analisi Dati Utenti Attivi"),
     ("1.2.1.2",  "Analisi tipologia di Eventi più remunerativi",
      "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.1 Analisi Dati Utenti Attivi"),
-    ("1.2.1.3",  "Analisi Provenienza geografica delle visualizzazioni",
+    ("1.2.1.3",  "Analisi Provenienza geografica delle visualizzazioni della piattaforma",
      "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.1 Analisi Dati Utenti Attivi"),
     ("1.2.2.1.1","Ricerca e selezione influencer",
-     "1 Marketing > 1.2 > 1.2.2 Campagna Pubblicitaria > 1.2.2.1 Influencer Marketing"),
-    ("1.2.2.1.2","Contatto e accordi (influencer)",
-     "1 Marketing > 1.2 > 1.2.2 Campagna Pubblicitaria > 1.2.2.1 Influencer Marketing"),
+     "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.2 Campagna Pubblicitaria > 1.2.2.1 Influencer Marketing"),
+    ("1.2.2.1.2","Contatto e accordi",
+     "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.2 Campagna Pubblicitaria > 1.2.2.1 Influencer Marketing"),
     ("1.2.2.1.3","Briefing contenuti",
-     "1 Marketing > 1.2 > 1.2.2 Campagna Pubblicitaria > 1.2.2.1 Influencer Marketing"),
-    ("1.2.2.1.4","Monitoraggio pubblicazioni (influencer)",
-     "1 Marketing > 1.2 > 1.2.2 Campagna Pubblicitaria > 1.2.2.1 Influencer Marketing"),
+     "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.2 Campagna Pubblicitaria > 1.2.2.1 Influencer Marketing"),
+    ("1.2.2.1.4","Monitoraggio e ottimizzazione pubblicazioni",
+     "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.2 Campagna Pubblicitaria > 1.2.2.1 Influencer Marketing"),
     ("1.2.2.2.1","Ricerca e selezione piattaforme ads",
-     "1 Marketing > 1.2 > 1.2.2 Campagna Pubblicitaria > 1.2.2.2 ADS online"),
+     "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.2 Campagna Pubblicitaria > 1.2.2.2 ADS online"),
     ("1.2.2.2.2","Creazione contenuti (grafiche/video)",
-     "1 Marketing > 1.2 > 1.2.2 Campagna Pubblicitaria > 1.2.2.2 ADS online"),
+     "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.2 Campagna Pubblicitaria > 1.2.2.2 ADS online"),
     ("1.2.2.2.3","Setup campagna",
-     "1 Marketing > 1.2 > 1.2.2 Campagna Pubblicitaria > 1.2.2.2 ADS online"),
-    ("1.2.2.2.4","Monitoraggio e ottimizzazione (ADS)",
-     "1 Marketing > 1.2 > 1.2.2 Campagna Pubblicitaria > 1.2.2.2 ADS online"),
+     "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.2 Campagna Pubblicitaria > 1.2.2.2 ADS online"),
+    ("1.2.2.2.4","Monitoraggio e ottimizzazione",
+     "1 Marketing > 1.2 Coinvolgimento Utenti > 1.2.2 Campagna Pubblicitaria > 1.2.2.2 ADS online"),
 
     # ── 2. APP MOBILE ─────────────────────────────────────────────────────
     # 2.1.1 Home
-    ("2.1.1.1.1","Design schermata Home (utenti non registrati)",
+    ("2.1.1.1.1","Design della schermata Home per utenti non registrati",
      "2 App Mobile > 2.1 Interfaccia Utente > 2.1.1 Home"),
-    ("2.1.1.1.2","Implementazione schermata Home (utenti non registrati)",
+    ("2.1.1.1.2","Implementazione della schermata Home per utenti non registrati",
      "2 App Mobile > 2.1 Interfaccia Utente > 2.1.1 Home"),
-    ("2.1.1.2.1","Design schermata Home (utenti registrati)",
+    ("2.1.1.2.1","Design della schermata Home per utenti registrati",
      "2 App Mobile > 2.1 Interfaccia Utente > 2.1.1 Home"),
-    ("2.1.1.2.2","Implementazione schermata Home (utenti registrati)",
+    ("2.1.1.2.2","Implementazione della schermata Home per utenti registrati",
      "2 App Mobile > 2.1 Interfaccia Utente > 2.1.1 Home"),
     # 2.1.2 Esplora
-    ("2.1.2.1.1","Design sistema di ricerca (Esplora)",
-     "2 App Mobile > 2.1 IU > 2.1.2 Esplora"),
-    ("2.1.2.1.2","Implementazione sistema di ricerca (Esplora)",
-     "2 App Mobile > 2.1 IU > 2.1.2 Esplora"),
-    ("2.1.2.2.1","Design schermata Esplora (utenti non registrati)",
-     "2 App Mobile > 2.1 IU > 2.1.2 Esplora"),
-    ("2.1.2.2.2","Implementazione schermata Esplora (utenti non registrati)",
-     "2 App Mobile > 2.1 IU > 2.1.2 Esplora"),
-    ("2.1.2.3.1","Design schermata Esplora (utenti registrati)",
-     "2 App Mobile > 2.1 IU > 2.1.2 Esplora"),
-    ("2.1.2.3.2","Implementazione schermata Esplora (utenti registrati)",
-     "2 App Mobile > 2.1 IU > 2.1.2 Esplora"),
-    ("2.1.2.4.1","Design filtri eventi (Esplora)",
-     "2 App Mobile > 2.1 IU > 2.1.2 Esplora"),
-    ("2.1.2.4.2","Implementazione filtri eventi (Esplora)",
-     "2 App Mobile > 2.1 IU > 2.1.2 Esplora"),
+    ("2.1.2.1.1","Design del sistema di ricerca per la schermata Esplora",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.2 Esplora"),
+    ("2.1.2.1.2","Implementazione del sistema di ricerca per la schermata Esplora",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.2 Esplora"),
+    ("2.1.2.2.1","Design della schermata Esplora per utenti non registrati",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.2 Esplora"),
+    ("2.1.2.2.2","Implementazione della schermata Esplora per utenti non registrati",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.2 Esplora"),
+    ("2.1.2.3.1","Design della schermata Esplora per utenti registrati",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.2 Esplora"),
+    ("2.1.2.3.2","Implementazione della schermata Esplora per utenti registrati",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.2 Esplora"),
+    ("2.1.2.4.1","Design dei filtri per gli eventi nella schermata Esplora",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.2 Esplora"),
+    ("2.1.2.4.2","Implementazione dei filtri per gli eventi nella schermata Esplora",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.2 Esplora"),
     # 2.1.3 Pagina dell'evento
-    ("2.1.3.1.1","Design schermata Pagina Evento",
-     "2 App Mobile > 2.1 IU > 2.1.3 Pagina dell'evento"),
-    ("2.1.3.1.2","Implementazione schermata Pagina Evento",
-     "2 App Mobile > 2.1 IU > 2.1.3 Pagina dell'evento"),
-    ("2.1.3.2.1","Design sezione Recensioni (pagina evento)",
-     "2 App Mobile > 2.1 IU > 2.1.3 Pagina dell'evento"),
-    ("2.1.3.2.2","Implementazione sezione Recensioni (pagina evento)",
-     "2 App Mobile > 2.1 IU > 2.1.3 Pagina dell'evento"),
-    ("2.1.3.3.1","Design navigazione verso la schermata di checkout",
-     "2 App Mobile > 2.1 IU > 2.1.3 Pagina dell'evento"),
-    ("2.1.3.3.2","Implementazione schermata di checkout",
-     "2 App Mobile > 2.1 IU > 2.1.3 Pagina dell'evento"),
-    ("2.1.3.4.1","Design funzionalità di like",
-     "2 App Mobile > 2.1 IU > 2.1.3 Pagina dell'evento"),
-    ("2.1.3.4.2","Implementazione funzionalità di like",
-     "2 App Mobile > 2.1 IU > 2.1.3 Pagina dell'evento"),
+    ("2.1.3.1.1","Design della schermata Pagina Evento",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.3 Pagina dell'evento"),
+    ("2.1.3.1.2","Implementazione della schermata Pagina Evento",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.3 Pagina dell'evento"),
+    ("2.1.3.2.1","Design della sezione Recensioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.3 Pagina dell'evento"),
+    ("2.1.3.2.2","Implementazione della sezione Recensioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.3 Pagina dell'evento"),
+    ("2.1.3.3.1","Design della navigazione verso la schermata di checkout",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.3 Pagina dell'evento"),
+    ("2.1.3.3.2","Implementazione della schermata di checkout",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.3 Pagina dell'evento"),
+    ("2.1.3.4.1","Design della funzionalità di like",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.3 Pagina dell'evento"),
+    ("2.1.3.4.2","Implementazione della funzionalità di like",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.3 Pagina dell'evento"),
     # 2.1.4 Checkout
-    ("2.1.4.1.1","Design sezione biglietti (checkout)",
-     "2 App Mobile > 2.1 IU > 2.1.4 Pagina di checkout"),
-    ("2.1.4.1.2","Implementazione sezione biglietti (checkout)",
-     "2 App Mobile > 2.1 IU > 2.1.4 Pagina di checkout"),
-    ("2.1.4.3.1","Design sistema completamento acquisto",
-     "2 App Mobile > 2.1 IU > 2.1.4 Pagina di checkout"),
-    ("2.1.4.3.2","Implementazione sistema completamento acquisto",
-     "2 App Mobile > 2.1 IU > 2.1.4 Pagina di checkout"),
+    ("2.1.4.1.1","Design della sezione dei biglietti nella schermata di checkout",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.4 Pagina di checkout"),
+    ("2.1.4.1.2","Implementazione della sezione dei biglietti nella schermata di checkout",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.4 Pagina di checkout"),
+    ("2.1.4.3.1","Design del sistema di completamento dell'acquisto",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.4 Pagina di checkout"),
+    ("2.1.4.3.2","Implementazione del sistema di completamento dell'acquisto",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.4 Pagina di checkout"),
     # 2.1.5 Recensioni
-    ("2.1.5.1.1","Design schermata delle recensioni",
-     "2 App Mobile > 2.1 IU > 2.1.5 Recensioni"),
-    ("2.1.5.1.2","Implementazione schermata delle recensioni",
-     "2 App Mobile > 2.1 IU > 2.1.5 Recensioni"),
-    ("2.1.5.2.1","Design resoconto rating organizzazione",
-     "2 App Mobile > 2.1 IU > 2.1.5 Recensioni"),
-    ("2.1.5.2.2","Implementazione resoconto rating",
-     "2 App Mobile > 2.1 IU > 2.1.5 Recensioni"),
-    ("2.1.5.3.1","Design sistema inserimento recensione",
-     "2 App Mobile > 2.1 IU > 2.1.5 Recensioni"),
-    ("2.1.5.3.2","Implementazione sistema inserimento recensione",
-     "2 App Mobile > 2.1 IU > 2.1.5 Recensioni"),
+    ("2.1.5.1.1","Design della schermata delle recensioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.5 Recensioni"),
+    ("2.1.5.1.2","Implementazione della schermata delle recensioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.5 Recensioni"),
+    ("2.1.5.2.1","Design del resoconto del rating dell'organizzazione",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.5 Recensioni"),
+    ("2.1.5.2.2","Implementazione del resoconto del rating",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.5 Recensioni"),
+    ("2.1.5.3.1","Design del sistema di inserimento di una recensione",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.5 Recensioni"),
+    ("2.1.5.3.2","Implementazione del sistema di inserimento di una recensione",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.5 Recensioni"),
     # 2.1.6 Profilo
-    ("2.1.6.1.1", "Design sezione informazioni profilo",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.1.2", "Implementazione sezione informazioni profilo",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.2.1", "Design sistema modifica profilo",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.2.2", "Implementazione sistema modifica profilo",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.3.1", "Design sistema modifica impostazioni account",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.3.2", "Implementazione sistema modifica impostazioni account",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.4.1", "Design sistema follow/unfollow",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.4.2", "Implementazione sistema follow/unfollow",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.5.1", "Design sistema contatto profili organizzazioni",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.5.2", "Implementazione sistema contatto profili organizzazioni",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.6.1", "Design sezione eventi con like",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.6.2", "Implementazione sezione eventi con like",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.7.1", "Design sezione eventi a cui l'utente ha partecipato",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.7.2", "Implementazione sezione eventi a cui l'utente ha partecipato",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.8.1", "Design sezione eventi creati da un'organizzazione",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.8.2", "Implementazione sezione eventi creati da un'organizzazione",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.9.1", "Design sezione bozze eventi",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.9.2", "Implementazione sezione bozze eventi",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.10.1","Design sistema visualizzazione statistiche",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.10.2","Implementazione sistema visualizzazione statistiche",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.11.1","Design sezione recensioni (profilo organizzazione)",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
-    ("2.1.6.11.2","Implementazione sezione recensioni (profilo organizzazione)",
-     "2 App Mobile > 2.1 IU > 2.1.6 Profilo"),
+    ("2.1.6.1.1", "Design della sezione delle informazioni del profilo",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.1.2", "Implementazione della sezione delle informazioni del profilo",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.2.1", "Design del sistema di modifica del profilo",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.2.2", "Implementazione del sistema di modifica del profilo",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.3.1", "Design del sistema di modifica delle impostazioni dell'account",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.3.2", "Implementazione del sistema di modifica delle impostazioni dell'account",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.4.1", "Design del sistema di follow/unfollow",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.4.2", "Implementazione del sistema di follow/unfollow",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.5.1", "Design del sistema di contatto nei profili delle organizzazioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.5.2", "Implementazione del sistema di contatto nei profili delle organizzazioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.6.1", "Design della sezione degli eventi a cui l'utente ha messo like",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.6.2", "Implementazione della sezione degli eventi a cui l'utente ha messo like",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.7.1", "Design della sezione degli eventi a cui l'utente ha partecipato",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.7.2", "Implementazione della sezione degli eventi a cui l'utente ha partecipato",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.8.1", "Design della sezione degli eventi creati da un'organizzazione",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.8.2", "Implementazione della sezione degli eventi creati da un'organizzazione",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.9.1", "Design della sezione delle bozze degli eventi",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.9.2", "Implementazione della sezione delle bozze degli eventi",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.10.1","Design del sistema di visualizzazione delle statistiche",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.10.2","Implementazione del sistema di visualizzazione delle statistiche",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.11.1","Design della sezione delle recensioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
+    ("2.1.6.11.2","Implementazione della sezione delle recensioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.6 Profilo"),
     # 2.1.7 Biglietti
-    ("2.1.7.1.1","Design schermata biglietti",
-     "2 App Mobile > 2.1 IU > 2.1.7 Biglietti"),
-    ("2.1.7.1.2","Implementazione schermata biglietti",
-     "2 App Mobile > 2.1 IU > 2.1.7 Biglietti"),
+    ("2.1.7.1.1","Design della schermata dei biglietti",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.7 Biglietti"),
+    ("2.1.7.1.2","Implementazione della schermata dei biglietti",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.7 Biglietti"),
     # 2.1.8 Chat
-    ("2.1.8.1.1","Design sezione conversazioni",
-     "2 App Mobile > 2.1 IU > 2.1.8 Chat"),
-    ("2.1.8.1.2","Implementazione sezione conversazioni",
-     "2 App Mobile > 2.1 IU > 2.1.8 Chat"),
-    ("2.1.8.2.1","Design schermata chat",
-     "2 App Mobile > 2.1 IU > 2.1.8 Chat"),
-    ("2.1.8.2.2","Implementazione schermata chat",
-     "2 App Mobile > 2.1 IU > 2.1.8 Chat"),
-    ("2.1.8.3.1","Design funzionalità ricerca conversazioni",
-     "2 App Mobile > 2.1 IU > 2.1.8 Chat"),
-    ("2.1.8.3.2","Implementazione ricerca conversazioni",
-     "2 App Mobile > 2.1 IU > 2.1.8 Chat"),
+    ("2.1.8.1.1","Design della sezione delle conversazioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.8 Chat"),
+    ("2.1.8.1.2","Implementazione della sezione delle conversazioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.8 Chat"),
+    ("2.1.8.2.1","Design della schermata delle chat",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.8 Chat"),
+    ("2.1.8.2.2","Implementazione della schermata delle chat",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.8 Chat"),
+    ("2.1.8.3.1","Design della funzionalità di ricerca delle conversazioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.8 Chat"),
+    ("2.1.8.3.2","Implementazione della schermata di ricerca delle conversazioni",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.8 Chat"),
     # 2.1.9 Creazione Evento
-    ("2.1.9.1.1","Design sezione informazioni evento",
-     "2 App Mobile > 2.1 IU > 2.1.9 Creazione Evento"),
-    ("2.1.9.1.2","Implementazione sezione informazioni evento",
-     "2 App Mobile > 2.1 IU > 2.1.9 Creazione Evento"),
-    ("2.1.9.2.1","Design funzionalità gestione evento",
-     "2 App Mobile > 2.1 IU > 2.1.9 Creazione Evento"),
-    ("2.1.9.2.2","Implementazione funzionalità gestione evento",
-     "2 App Mobile > 2.1 IU > 2.1.9 Creazione Evento"),
+    ("2.1.9.1.1","Design della sezione delle informazioni dell'evento",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.9 Creazione Evento"),
+    ("2.1.9.1.2","Implementazione della sezione delle informazioni dell'evento",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.9 Creazione Evento"),
+    ("2.1.9.2.1","Design delle funzionalità di gestione dell'evento",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.9 Creazione Evento"),
+    ("2.1.9.2.2","Implementazione delle funzionalità di gestione dell'evento",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.9 Creazione Evento"),
     # 2.1.10 Registrazione/Login
-    ("2.1.10.1.1","Design schermata registrazione/login",
-     "2 App Mobile > 2.1 IU > 2.1.10 Registrazione/Login"),
-    ("2.1.10.1.2","Implementazione schermata registrazione/login",
-     "2 App Mobile > 2.1 IU > 2.1.10 Registrazione/Login"),
+    ("2.1.10.1.1","Design della schermata di registrazione/login",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.10 Registrazione/Login"),
+    ("2.1.10.1.2","Implementazione della schermata di registrazione/login",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.10 Registrazione/Login"),
     # 2.1.11 Scansione biglietti
-    ("2.1.11.1.1","Design schermata scansione biglietti",
-     "2 App Mobile > 2.1 IU > 2.1.11 Scansione biglietti"),
-    ("2.1.11.1.2","Implementazione schermata scansione biglietti",
-     "2 App Mobile > 2.1 IU > 2.1.11 Scansione biglietti"),
+    ("2.1.11.1.1","Design della schermata di scansione biglietti",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.11 Scansione biglietti"),
+    ("2.1.11.1.2","Implementazione della schermata di scansione biglietti",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.11 Scansione biglietti"),
     # 2.1.12 Navigazione
-    ("2.1.12.1.1","Design sistema di navigazione",
-     "2 App Mobile > 2.1 IU > 2.1.12 Sistema di navigazione"),
-    ("2.1.12.1.2","Implementazione sistema di navigazione",
-     "2 App Mobile > 2.1 IU > 2.1.12 Sistema di navigazione"),
+    ("2.1.12.1.1","Design del sistema di navigazione",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.12 Sistema di navigazione"),
+    ("2.1.12.1.2","Implementazione del sistema di navigazione",
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.12 Sistema di navigazione"),
     # 2.1.13 Requisiti Non Funzionali
     ("2.1.13.1.1","Verificare che l'app sia responsive",
-     "2 App Mobile > 2.1 IU > 2.1.13 Requisiti Non Funzionali"),
+     "2 App Mobile > 2.1 Interfaccia Utente > 2.1.13 Requisiti Non Funzionali"),
     # 2.2 Notifiche push
     ("2.2.1","Studio Funzionamento Notifiche push",
      "2 App Mobile > 2.2 Notifiche push"),
     ("2.2.2","Implementazione Notifiche push",
      "2 App Mobile > 2.2 Notifiche push"),
     # 2.3 Testing UX
-    ("2.3.1.1","Individuazione Principali Task per Usability Test",
+    ("2.3.1.1","Individuazione dei Principali Task Per Valutare l'usabilità",
      "2 App Mobile > 2.3 Testing UX"),
-    ("2.3.1.2","Contatto Utenti Target e Organizzazione Sessioni",
+    ("2.3.1.2","Contatto Utenti Target e Organizzazione Sessioni di Usability Test",
      "2 App Mobile > 2.3 Testing UX"),
     ("2.3.1.3","Svolgimento Sessioni di Usability Test",
      "2 App Mobile > 2.3 Testing UX"),
@@ -238,130 +238,130 @@ ACTIVITIES = [
 
     # ── 3. AGGIORNAMENTO SISTEMA ESISTENTE ────────────────────────────────
     # 3.1 OAuth2
-    ("3.1.1","Scelta provider OAuth2",
-     "3 Aggiornamento Sistema > 3.1 Registrazione con OAuth2"),
+    ("3.1.1","Scelta provider OAuth2 (e.g. Google)",
+     "3 Aggiornamento Sistema Esistente > 3.1 Registrazione con OAuth2"),
     ("3.1.2","Aggiornamento configurazione servizio Autenticazione",
-     "3 Aggiornamento Sistema > 3.1 Registrazione con OAuth2"),
+     "3 Aggiornamento Sistema Esistente > 3.1 Registrazione con OAuth2"),
     ("3.1.3","Testing servizio Autenticazione",
-     "3 Aggiornamento Sistema > 3.1 Registrazione con OAuth2"),
+     "3 Aggiornamento Sistema Esistente > 3.1 Registrazione con OAuth2"),
     ("3.1.4","Integrazione aggiornamenti nel servizio Utenti",
-     "3 Aggiornamento Sistema > 3.1 Registrazione con OAuth2"),
+     "3 Aggiornamento Sistema Esistente > 3.1 Registrazione con OAuth2"),
     ("3.1.5","Aggiornamento Documentazione API del servizio Utenti",
-     "3 Aggiornamento Sistema > 3.1 Registrazione con OAuth2"),
+     "3 Aggiornamento Sistema Esistente > 3.1 Registrazione con OAuth2"),
     ("3.1.6","Testing servizio Utenti",
-     "3 Aggiornamento Sistema > 3.1 Registrazione con OAuth2"),
+     "3 Aggiornamento Sistema Esistente > 3.1 Registrazione con OAuth2"),
     # 3.2 Geolocalizzazione
     ("3.2.1.1","Sviluppo endpoint RBS 3.2.1 nel servizio Geolocalizzazione",
-     "3 Aggiornamento Sistema > 3.2 Servizio Geolocalizzazione"),
-    ("3.2.1.2","Documentazione API endpoint RBS 3.2.1",
-     "3 Aggiornamento Sistema > 3.2 Servizio Geolocalizzazione"),
-    ("3.2.1.3","Testing funzionalità RBS 3.2.1",
-     "3 Aggiornamento Sistema > 3.2 Servizio Geolocalizzazione"),
+     "3 Aggiornamento Sistema Esistente > 3.2 Servizio Geolocalizzazione"),
+    ("3.2.1.2","Documentazione API con endpoint RBS 3.2.1",
+     "3 Aggiornamento Sistema Esistente > 3.2 Servizio Geolocalizzazione"),
+    ("3.2.1.3","Testing della funzionalità RBS 3.2.1",
+     "3 Aggiornamento Sistema Esistente > 3.2 Servizio Geolocalizzazione"),
     ("3.2.2.1","Sviluppo endpoint RBS 3.2.2 nel servizio Geolocalizzazione",
-     "3 Aggiornamento Sistema > 3.2 Servizio Geolocalizzazione"),
-    ("3.2.2.2","Integrazione campo posizione in tutti i servizi",
-     "3 Aggiornamento Sistema > 3.2 Servizio Geolocalizzazione"),
-    ("3.2.2.3","Documentazione API endpoint RBS 3.2.2",
-     "3 Aggiornamento Sistema > 3.2 Servizio Geolocalizzazione"),
-    ("3.2.2.4","Testing funzionalità RBS 3.2.2",
-     "3 Aggiornamento Sistema > 3.2 Servizio Geolocalizzazione"),
+     "3 Aggiornamento Sistema Esistente > 3.2 Servizio Geolocalizzazione"),
+    ("3.2.2.2","Integrazione campo posizizione in tutti i servizi che lo richiedono",
+     "3 Aggiornamento Sistema Esistente > 3.2 Servizio Geolocalizzazione"),
+    ("3.2.2.3","Documentazione API con endpoint RBS 3.2.2",
+     "3 Aggiornamento Sistema Esistente > 3.2 Servizio Geolocalizzazione"),
+    ("3.2.2.4","Testing della funzionalità RBS 3.2.2",
+     "3 Aggiornamento Sistema Esistente > 3.2 Servizio Geolocalizzazione"),
     # 3.3 Notifiche (8 gruppi × 3 task)
     ("3.3.1.1","Aggiunta notifica RBS 3.3.1 al servizio Notifiche",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.1.2","Documentazione API notifica RBS 3.3.1",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.1.3","Testing notifica RBS 3.3.1",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.1.2","Aggiornamento Documentazione API con notifica RBS 3.3.1",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.1.3","Testing della funzionalità di notifica RBS 3.3.1",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
     ("3.3.2.1","Aggiunta notifica RBS 3.3.2 al servizio Notifiche",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.2.2","Documentazione API notifica RBS 3.3.2",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.2.3","Testing notifica RBS 3.3.2",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.2.2","Aggiornamento Documentazione API con notifica RBS 3.3.2",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.2.3","Testing della funzionalità di notifica RBS 3.3.2",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
     ("3.3.3.1","Aggiunta notifica RBS 3.3.3 al servizio Notifiche",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.3.2","Documentazione API notifica RBS 3.3.3",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.3.3","Testing notifica RBS 3.3.3",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.3.2","Aggiornamento Documentazione API con notifica RBS 3.3.3",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.3.3","Testing della funzionalità di notifica RBS 3.3.3",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
     ("3.3.4.1","Aggiunta notifica RBS 3.3.4 al servizio Notifiche",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.4.2","Documentazione API notifica RBS 3.3.4",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.4.3","Testing notifica RBS 3.3.4",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.4.2","Aggiornamento Documentazione API con notifica RBS 3.3.4",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.4.3","Testing della funzionalità di notifica RBS 3.3.4",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
     ("3.3.5.1","Aggiunta notifica RBS 3.3.5 al servizio Notifiche",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.5.2","Documentazione API notifica RBS 3.3.5",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.5.3","Testing notifica RBS 3.3.5",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.5.2","Aggiornamento Documentazione API con notifica RBS 3.3.5",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.5.3","Testing della funzionalità di notifica RBS 3.3.5",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
     ("3.3.6.1","Aggiunta notifica RBS 3.3.6 al servizio Notifiche",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.6.2","Documentazione API notifica RBS 3.3.6",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.6.3","Testing notifica RBS 3.3.6",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.6.2","Aggiornamento Documentazione API con notifica RBS 3.3.6",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.6.3","Testing della funzionalità di notifica RBS 3.3.6",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
     ("3.3.7.1","Aggiunta notifica RBS 3.3.7 al servizio Notifiche",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.7.2","Documentazione API notifica RBS 3.3.7",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.7.3","Testing notifica RBS 3.3.7",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.7.2","Aggiornamento Documentazione API con notifica RBS 3.3.7",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.7.3","Testing della funzionalità di notifica RBS 3.3.7",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
     ("3.3.8.1","Aggiunta notifica RBS 3.3.8 al servizio Notifiche",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.8.2","Documentazione API notifica RBS 3.3.8",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
-    ("3.3.8.3","Testing notifica RBS 3.3.8",
-     "3 Aggiornamento Sistema > 3.3 Servizio Notifiche"),
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.8.2","Aggiornamento Documentazione API con notifica RBS 3.3.8",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
+    ("3.3.8.3","Testing della funzionalità di notifica RBS 3.3.8",
+     "3 Aggiornamento Sistema Esistente > 3.3 Servizio Notifiche"),
     # 3.4 Abbonamento
-    ("3.4.1","Sviluppo servizio Subscription",
-     "3 Aggiornamento Sistema > 3.4 Piani di Abbonamento"),
-    ("3.4.2","Integrazione servizio Subscription con il sistema",
-     "3 Aggiornamento Sistema > 3.4 Piani di Abbonamento"),
+    ("3.4.1","Sviluppo servizio Subscription per la gestione dei piani di abbonamento",
+     "3 Aggiornamento Sistema Esistente > 3.4 Piani di Abbonamento"),
+    ("3.4.2","Integrazione servizio Subscription con il resto del sistema",
+     "3 Aggiornamento Sistema Esistente > 3.4 Piani di Abbonamento"),
     ("3.4.3","Documentazione API del servizio Subscription",
-     "3 Aggiornamento Sistema > 3.4 Piani di Abbonamento"),
+     "3 Aggiornamento Sistema Esistente > 3.4 Piani di Abbonamento"),
     ("3.4.4","Testing servizio Subscription",
-     "3 Aggiornamento Sistema > 3.4 Piani di Abbonamento"),
+     "3 Aggiornamento Sistema Esistente > 3.4 Piani di Abbonamento"),
     # 3.5 Ticketing
     ("3.5.1.1","Aggiunta endpoint RBS 3.5.1 al servizio Ticketing",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
-    ("3.5.1.2","Documentazione API endpoint RBS 3.5.1",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
-    ("3.5.1.3","Testing funzionalità RBS 3.5.1",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
-    ("3.5.2.1","Aggiornamento endpoint checkout (RBS 3.5.2)",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
-    ("3.5.2.2","Documentazione API endpoint checkout aggiornato",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
-    ("3.5.2.3","Testing checkout aggiornato (RBS 3.5.2)",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
+    ("3.5.1.2","Aggiornamento Documentazione API con endpoint RBS 3.5.1",
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
+    ("3.5.1.3","Testing della funzionalità RBS 3.5.1",
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
+    ("3.5.2.1","Aggiornamento endpoint di checkout per supportare RBS 3.5.2 nel servizio Ticketing",
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
+    ("3.5.2.2","Aggiornamento Documentazione API endpoint di checkout",
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
+    ("3.5.2.3","Testing della funzionalità di checkout aggiornata con RBS 3.5.2",
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
     ("3.5.3.1","Aggiunta endpoint RBS 3.5.3 al servizio Ticketing",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
-    ("3.5.3.2","Documentazione API endpoint RBS 3.5.3",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
-    ("3.5.3.3","Testing funzionalità RBS 3.5.3",
-     "3 Aggiornamento Sistema > 3.5 Servizio Ticketing"),
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
+    ("3.5.3.2","Aggiornamento Documentazione API con endpoint RBS 3.5.3",
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
+    ("3.5.3.3","Testing della funzionalità RBS 3.5.3",
+     "3 Aggiornamento Sistema Esistente > 3.5 Servizio Ticketing"),
     # 3.6 Frontend Web
-    ("3.6.1","Aggiornamento login/registrazione con OAuth2 (web)",
-     "3 Aggiornamento Sistema > 3.6 Frontend Web"),
-    ("3.6.2","Integrazione API geolocalizzazione (web)",
-     "3 Aggiornamento Sistema > 3.6 Frontend Web"),
-    ("3.6.3","Supporto nuove notifiche (web)",
-     "3 Aggiornamento Sistema > 3.6 Frontend Web"),
-    ("3.6.4","Supporto codice sconto in checkout (web)",
-     "3 Aggiornamento Sistema > 3.6 Frontend Web"),
-    ("3.6.5","Design schermata piani di abbonamento (web)",
-     "3 Aggiornamento Sistema > 3.6 Frontend Web"),
-    ("3.6.6","Implementazione schermata piani di abbonamento (web)",
-     "3 Aggiornamento Sistema > 3.6 Frontend Web"),
-    ("3.6.7","Integrazione abbonamento + statistiche organizzazioni (web)",
-     "3 Aggiornamento Sistema > 3.6 Frontend Web"),
+    ("3.6.1","Aggiornamento schermata di registrazione/login con supporto OAuth2",
+     "3 Aggiornamento Sistema Esistente > 3.6 Frontend Web"),
+    ("3.6.2","Integrazione API servizio di geolocalizzazione",
+     "3 Aggiornamento Sistema Esistente > 3.6 Frontend Web"),
+    ("3.6.3","Supporto nuove notifiche",
+     "3 Aggiornamento Sistema Esistente > 3.6 Frontend Web"),
+    ("3.6.4","Supporto inserimento codice sconto nella schermata di checkout",
+     "3 Aggiornamento Sistema Esistente > 3.6 Frontend Web"),
+    ("3.6.5","Design schermata per i piani di abbonamento",
+     "3 Aggiornamento Sistema Esistente > 3.6 Frontend Web"),
+    ("3.6.6","Implementazione schermata per i piani di abbonamento",
+     "3 Aggiornamento Sistema Esistente > 3.6 Frontend Web"),
+    ("3.6.7","Integrazione sistema di abbonamento nelle schermate del sito, con aggiunta schermata ad hoc per le statistiche di performance per le organizzazioni",
+     "3 Aggiornamento Sistema Esistente > 3.6 Frontend Web"),
     # 3.7 Requisiti Non Funzionali
-    ("3.7.1.1","Verificare performance endpoint (< 200ms nel 99% dei casi)",
-     "3 Aggiornamento Sistema > 3.7 Requisiti Non Funzionali"),
+    ("3.7.1.1","Verificare che i nuovi endpoint e quelli aggiornati rispettino il requisito di performance",
+     "3 Aggiornamento Sistema Esistente > 3.7 Requisiti Non Funzionali"),
     ("3.7.2.1","Verificare che il frontend web sia responsive",
-     "3 Aggiornamento Sistema > 3.7 Requisiti Non Funzionali"),
+     "3 Aggiornamento Sistema Esistente > 3.7 Requisiti Non Funzionali"),
 ]
 
 PARTICIPANTS   = ["Alice Alfonsi", "Federico Bravetti", "Tommaso Brini"]
@@ -498,7 +498,7 @@ def parse_user_date(s):
     return None
 
 def format_user_date(dt):
-    return dt.strftime(DATE_OUTPUT_FORMAT)
+    return dt.strftime(DATE_OUTPUT_FORMAT) if dt else ""
 
 def _count_work_days(start_dt, end_dt):
     """Conta i giorni lavorativi (lun-ven) da start_dt a end_dt, inclusivi."""
@@ -514,40 +514,13 @@ def _count_work_days(start_dt, end_dt):
 
 def resolve_schedule(durata_raw, inizio_raw, fine_raw,
                      default_duration, default_start):
-    """Risolve (durata_giorni, inizio, fine) in modo consistente:
-
-      - entrambe le date presenti → durata = giorni di calendario inclusivi
-      - solo inizio → fine = inizio + (durata - 1)
-      - solo fine   → inizio = fine - (durata - 1)
-      - nessuna     → inizio = default_start, fine = inizio + (durata - 1)
-
-    La durata di partenza è durata_raw (se intero valido), altrimenti
-    default_duration. Se le date sono invertite vengono scambiate.
+    """Risolve (durata_giorni, inizio, fine) con la formula come unica fonte
+    di verità per la DURATA. Le date sono input dell'utente e non vengono
+    MAI ricalcolate: vengono ritornate esattamente come lette (None se vuote).
     """
-    try:
-        duration = int(float((durata_raw or "").strip())) if (durata_raw or "").strip() else default_duration
-        if duration < 1:
-            duration = default_duration
-    except (ValueError, TypeError):
-        duration = default_duration
-
-    inizio = parse_user_date(inizio_raw)
-    fine   = parse_user_date(fine_raw)
-
-    if inizio and fine:
-        delta = (fine.date() - inizio.date()).days
-        if delta < 0:
-            inizio, fine = fine, inizio
-            delta = -delta
-        duration = max(1, delta + 1)
-    elif inizio and not fine:
-        fine = inizio + timedelta(days=max(0, duration - 1))
-    elif fine and not inizio:
-        inizio = fine - timedelta(days=max(0, duration - 1))
-    else:
-        inizio = default_start
-        fine   = inizio + timedelta(days=max(0, duration - 1))
-
+    duration = max(1, int(default_duration))
+    inizio   = parse_user_date(inizio_raw)
+    fine     = parse_user_date(fine_raw)
     return duration, inizio, fine
 
 
@@ -748,7 +721,7 @@ def generate_word(state):
 
 # ── PIANO ATTIVITÀ (tabella gantt-style) ──────────────────────────────────
 
-def generate_gantt_word(state, divisor):
+def generate_gantt_word(state, ore_giorno, efficienza):
     # preserva i campi manuali dal file esistente (se presente)
     preserved = _load_existing_gantt_fields(OUTPUT_GANTT)
 
@@ -788,9 +761,12 @@ def generate_gantt_word(state, divisor):
     t = doc.add_heading("Piano delle Attività – EvenToNight", level=0)
     t.alignment = WD_ALIGN_PARAGRAPH.CENTER
     t.runs[0].font.color.rgb = RGBColor.from_string("1C4587")
+    eff_pct = efficienza * 100
+    eff_str = f"{int(eff_pct)}%" if eff_pct == int(eff_pct) else f"{eff_pct:g}%"
+    ore_str = f"{int(ore_giorno)}" if ore_giorno == int(ore_giorno) else f"{ore_giorno:g}"
     sub = doc.add_paragraph(
         f"Generato il {datetime.now().strftime('%Y-%m-%d %H:%M')}  |  "
-        f"Durata = ⌈Effort / {int(divisor) if divisor == int(divisor) else divisor}⌉ giorni"
+        f"Durata = ⌈Effort / ({ore_str} ore × {eff_str})⌉ giorni"
     )
     sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
     sub.runs[0].font.size = Pt(9)
@@ -828,7 +804,7 @@ def generate_gantt_word(state, divisor):
         row    = tbl.rows[i + 1]
         bg     = ALT_BG if i % 2 == 0 else "FFFFFF"
         effort = median
-        default_duration = max(1, math.ceil(median / divisor))
+        default_duration = compute_duration(median, ore_giorno, efficienza)
 
         prev = preserved.get(act_name, ["", "", "", "", ""])
         resolved_dur, resolved_inizio, resolved_fine = resolve_schedule(
@@ -911,50 +887,60 @@ _ADVANCED_DEFAULT = {
 }
 
 _RESOURCE_NAMES = {1: "Alice Alfonsi", 2: "Federico Bravetti", 3: "Tommaso Brini"}
-_RESOURCE_MAP   = {
-    "aa": 1, "alice": 1, "alice alfonsi": 1,
-    "fb": 2, "federico": 2, "federico bravetti": 2,
-    "tb": 3, "tommaso": 3, "tommaso brini": 3,
-}
+# lookup case-insensitive solo sul nome completo (nessuna sigla/forma breve)
+_RESOURCE_LOOKUP = {name.lower(): rid for rid, name in _RESOURCE_NAMES.items()}
 # top-level resources: formato esatto del tool (resourceId = nome stringa)
 _GANTT_RESOURCES = [
     {"resourceId": name, "resourceName": name}
     for name in _RESOURCE_NAMES.values()
 ]
 
-def _parse_resources(assegnato_raw):
-    """Converte 'AA, FB' → lista resource refs nel formato del tool online."""
-    import re
-    seen, result = set(), []
-    for token in re.split(r"[,;\s/]+", (assegnato_raw or "").lower()):
-        rid = _RESOURCE_MAP.get(token.strip())
+def _split_assignees(assegnato_raw):
+    """Divide il campo ASSEGNATO in nomi (separatori , ; /) e restituisce
+    la lista degli ID risorsa corrispondenti, nell'ordine di apparizione."""
+    seen, ids = set(), []
+    for chunk in (assegnato_raw or "").replace(";", ",").replace("/", ",").split(","):
+        rid = _RESOURCE_LOOKUP.get(chunk.strip().lower())
         if rid and rid not in seen:
             seen.add(rid)
-            name = _RESOURCE_NAMES[rid]
-            result.append({"resourceId": name, "resourceName": name, "unit": 100})
-    return result
+            ids.append(rid)
+    return ids
+
+def _parse_resources(assegnato_raw):
+    """Converte 'Alice Alfonsi, Federico Bravetti' → lista resource refs."""
+    return [
+        {"resourceId": _RESOURCE_NAMES[rid], "resourceName": _RESOURCE_NAMES[rid], "unit": 100}
+        for rid in _split_assignees(assegnato_raw)
+    ]
 
 # colori numerici proprietari del tool (solo codici della palette nativa).
 # Per le combinazioni si usa il colore del primo assegnatario in ordine
 # alfabetico/ID, perché i codici 4xx-7xx non corrispondono a colori validi.
 _ASSIGNMENT_COLORS = {
-    frozenset([1]):       "121",   # AA solo
-    frozenset([2]):       "211",   # FB solo
-    frozenset([3]):       "301",   # TB solo
-    frozenset([1, 2]):    "121",   # AA + FB  → colore AA
-    frozenset([1, 3]):    "121",   # AA + TB  → colore AA
-    frozenset([2, 3]):    "211",   # FB + TB  → colore FB
-    frozenset([1, 2, 3]): "121",   # tutti    → colore AA
+    frozenset([1]):       "121",   # Alice solo
+    frozenset([2]):       "211",   # Federico solo
+    frozenset([3]):       "301",   # Tommaso solo
+    frozenset([1, 2]):    "121",   # Alice + Federico  → colore Alice
+    frozenset([1, 3]):    "121",   # Alice + Tommaso   → colore Alice
+    frozenset([2, 3]):    "211",   # Federico + Tommaso → colore Federico
+    frozenset([1, 2, 3]): "121",   # tutti              → colore Alice
 }
 
 def _assignment_color(assegnato_raw):
-    import re
-    seen = set()
-    for token in re.split(r"[,;\s/]+", (assegnato_raw or "").lower()):
-        rid = _RESOURCE_MAP.get(token.strip())
-        if rid:
-            seen.add(rid)
-    return _ASSIGNMENT_COLORS.get(frozenset(seen), "") if seen else ""
+    ids = set(_split_assignees(assegnato_raw))
+    return _ASSIGNMENT_COLORS.get(frozenset(ids), "") if ids else ""
+
+def compute_duration(effort, ore_giorno, efficienza):
+    """Durata = ⌈ effort / (ore_giorno * efficienza) ⌉.
+
+    - effort: ore/uomo (mediana dei round Delphi)
+    - ore_giorno: ore lavorative al giorno
+    - efficienza: frazione (es. 0.8 = 80%)
+    """
+    divisor = ore_giorno * efficienza
+    if divisor <= 0:
+        return 1
+    return max(1, math.ceil(effort / divisor))
 
 def _clean_predecessor(raw):
     """Normalizza predecessori al formato 'NNN SS' (Start-to-Start).
@@ -971,7 +957,7 @@ def _clean_predecessor(raw):
             result.append(m.group(1) + "SS")
     return ",".join(result)
 
-def generate_gantt_json(state, divisor):
+def generate_gantt_json(state, ore_giorno, efficienza):
     # preserva blocco advanced dall'esistente (zoom, timezone, workTime…)
     advanced = _ADVANCED_DEFAULT
     if os.path.exists(OUTPUT_GANTT_JSON):
@@ -998,7 +984,7 @@ def generate_gantt_json(state, divisor):
             continue
         top              = section.split(" > ")[0]
         median           = state[act_id][-1]["median"]
-        default_duration = max(1, math.ceil(median / divisor))
+        default_duration = compute_duration(median, ore_giorno, efficienza)
         prev             = word_fields.get(act_name, ["", "", "", "", ""])
         duration, inizio, fine = resolve_schedule(
             prev[0], prev[3], prev[4],
@@ -1032,8 +1018,13 @@ def generate_gantt_json(state, divisor):
             pred_str    = predecessors.get(act_name, "")
             assegnato   = word_fields.get(act_name, ["", "", "", "", ""])[2]
 
-            start_dt = inizio.replace(hour=6,  minute=0, second=0, microsecond=0)
-            end_dt   = fine.replace(  hour=15, minute=0, second=0, microsecond=0)
+            # Fallback SOLO per il gantt JSON quando il docx non ha date:
+            # usa default_start e propaga la durata. Non scrive nulla nel docx.
+            inizio_dt = inizio or fine or DEFAULT_PROJECT_START
+            fine_dt   = fine or (inizio_dt + timedelta(days=duration - 1))
+
+            start_dt = inizio_dt.replace(hour=6,  minute=0, second=0, microsecond=0)
+            end_dt   = fine_dt.replace(  hour=15, minute=0, second=0, microsecond=0)
             starts.append(start_dt)
             ends.append(end_dt)
 
@@ -1119,31 +1110,48 @@ def generate_gantt_json(state, divisor):
 
 # ── MAIN ──────────────────────────────────────────────────────────────────
 
-def _ask_divisor():
+def _ask_duration_params():
     print(f"\n{SEP}")
     print("  Generazione file di output...")
-    print(f"  Il piano attività calcola DURATA = ⌈Effort / divisore⌉ giorni.")
-    div_raw = input("  Divisore [Invio = 8]: ").strip().replace(",", ".")
-    if div_raw:
+    print(f"  Il piano attività calcola DURATA = ⌈Effort / (ore × efficienza)⌉ giorni.")
+    ore_raw = input("  Ore lavorative al giorno [Invio = 8]: ").strip().replace(",", ".")
+    if ore_raw:
         try:
-            divisor = float(div_raw)
-            if divisor <= 0:
+            ore_giorno = float(ore_raw)
+            if ore_giorno <= 0:
                 raise ValueError
         except ValueError:
             print("  Valore non valido, uso 8.")
-            divisor = 8.0
+            ore_giorno = 8.0
     else:
-        divisor = 8.0
-    print(f"  Divisore confermato: {int(divisor) if divisor == int(divisor) else divisor}")
-    return divisor
+        ore_giorno = 8.0
 
-def _generate_all(state, divisor):
+    eff_raw = input("  Efficienza % [Invio = 100]: ").strip().replace(",", ".").rstrip("%")
+    if eff_raw:
+        try:
+            eff_val = float(eff_raw)
+            if eff_val <= 0:
+                raise ValueError
+            efficienza = eff_val / 100 if eff_val > 1 else eff_val
+        except ValueError:
+            print("  Valore non valido, uso 100%.")
+            efficienza = 1.0
+    else:
+        efficienza = 1.0
+
+    ore_str = f"{int(ore_giorno)}" if ore_giorno == int(ore_giorno) else f"{ore_giorno:g}"
+    eff_pct = efficienza * 100
+    eff_str = f"{int(eff_pct)}%" if eff_pct == int(eff_pct) else f"{eff_pct:g}%"
+    print(f"  Confermato: ore/giorno = {ore_str}, efficienza = {eff_str}")
+    return ore_giorno, efficienza
+
+def _generate_all(state, ore_giorno, efficienza):
     md = generate_markdown(state)
     with open(OUTPUT_MD, "w", encoding="utf-8") as f:
         f.write(md)
     generate_word(state)
-    generate_gantt_word(state, divisor)
-    generate_gantt_json(state, divisor)
+    generate_gantt_word(state, ore_giorno, efficienza)
+    generate_gantt_json(state, ore_giorno, efficienza)
 
     done_now = sum(1 for a in ACTIVITIES if a[0] in state and state[a[0]])
     print(f"\n{SEP}")
@@ -1178,8 +1186,8 @@ def main():
             "r": "rigenera output (Word + Gantt) senza modificare stime",
         })
         if scelta == "r":
-            divisor = _ask_divisor()
-            _generate_all(state, divisor)
+            ore_giorno, efficienza = _ask_duration_params()
+            _generate_all(state, ore_giorno, efficienza)
             return
 
     for act_id, act_name, section in ACTIVITIES:
@@ -1189,8 +1197,8 @@ def main():
         if not keep_going:
             break
 
-    divisor = _ask_divisor()
-    _generate_all(state, divisor)
+    ore_giorno, efficienza = _ask_duration_params()
+    _generate_all(state, ore_giorno, efficienza)
 
 
 if __name__ == "__main__":

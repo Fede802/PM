@@ -1,6 +1,6 @@
 # Stime Delphi – EvenToNight
 
-_Generato il 2026-05-18 13:02_  
+_Generato il 2026-05-24 16:38_  
 _Unità: ore/uomo (ore/u)_
 
 ## 1 Marketing
@@ -46,7 +46,7 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 1.2.1.3 – Analisi Provenienza geografica delle visualizzazioni
+### Attività 1.2.1.3 – Analisi Provenienza geografica delle visualizzazioni della piattaforma
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -60,7 +60,7 @@ _Unità: ore/uomo (ore/u)_
 | 1 | 32.0 | 48.0 | 40.0 | 40.0 | 40.0 |
 | 2 | 32.0 | 32.0 | 32.0 | 32.0 | 32.0 |
 
-### Attività 1.2.2.1.2 – Contatto e accordi (influencer)
+### Attività 1.2.2.1.2 – Contatto e accordi
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -73,7 +73,7 @@ _Unità: ore/uomo (ore/u)_
 | 1 | 56.0 | 40.0 | 56.0 | 50.7 | 56.0 |
 | 2 | 56.0 | 56.0 | 56.0 | 56.0 | 56.0 |
 
-### Attività 1.2.2.1.4 – Monitoraggio pubblicazioni (influencer)
+### Attività 1.2.2.1.4 – Monitoraggio e ottimizzazione pubblicazioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -99,7 +99,7 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 1.2.2.2.4 – Monitoraggio e ottimizzazione (ADS)
+### Attività 1.2.2.2.4 – Monitoraggio e ottimizzazione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -108,466 +108,466 @@ _Unità: ore/uomo (ore/u)_
 
 ## 2 App Mobile
 
-### Attività 2.1.1.1.1 – Design schermata Home (utenti non registrati)
+### Attività 2.1.1.1.1 – Design della schermata Home per utenti non registrati
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.1.1.2 – Implementazione schermata Home (utenti non registrati)
+### Attività 2.1.1.1.2 – Implementazione della schermata Home per utenti non registrati
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 16.0 | 16.0 | 13.3 | 16.0 |
 | 2 | 16.0 | 16.0 | 16.0 | 16.0 | 16.0 |
 
-### Attività 2.1.1.2.1 – Design schermata Home (utenti registrati)
+### Attività 2.1.1.2.1 – Design della schermata Home per utenti registrati
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 2.0 | 4.0 | 4.7 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.1.2.2 – Implementazione schermata Home (utenti registrati)
+### Attività 2.1.1.2.2 – Implementazione della schermata Home per utenti registrati
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 16.0 | 4.0 | 8.0 | 9.3 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.2.1.1 – Design sistema di ricerca (Esplora)
+### Attività 2.1.2.1.1 – Design del sistema di ricerca per la schermata Esplora
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 8.0 | 8.0 | 6.7 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.2.1.2 – Implementazione sistema di ricerca (Esplora)
+### Attività 2.1.2.1.2 – Implementazione del sistema di ricerca per la schermata Esplora
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.2.2.1 – Design schermata Esplora (utenti non registrati)
+### Attività 2.1.2.2.1 – Design della schermata Esplora per utenti non registrati
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 4.0 | 4.0 | 3.3 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.2.2.2 – Implementazione schermata Esplora (utenti non registrati)
+### Attività 2.1.2.2.2 – Implementazione della schermata Esplora per utenti non registrati
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.2.3.1 – Design schermata Esplora (utenti registrati)
+### Attività 2.1.2.3.1 – Design della schermata Esplora per utenti registrati
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 1.0 | 1.0 | 1.3 | 1.0 |
 | 2 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 2.1.2.3.2 – Implementazione schermata Esplora (utenti registrati)
+### Attività 2.1.2.3.2 – Implementazione della schermata Esplora per utenti registrati
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 1.0 | 2.0 | 2.3 | 2.0 |
 | 2 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.2.4.1 – Design filtri eventi (Esplora)
+### Attività 2.1.2.4.1 – Design dei filtri per gli eventi nella schermata Esplora
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.2.4.2 – Implementazione filtri eventi (Esplora)
+### Attività 2.1.2.4.2 – Implementazione dei filtri per gli eventi nella schermata Esplora
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 4.0 | 4.0 | 3.3 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.3.1.1 – Design schermata Pagina Evento
+### Attività 2.1.3.1.1 – Design della schermata Pagina Evento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 8.0 | 6.0 | 6.0 | 6.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.3.1.2 – Implementazione schermata Pagina Evento
+### Attività 2.1.3.1.2 – Implementazione della schermata Pagina Evento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 16.0 | 8.0 | 10.0 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.3.2.1 – Design sezione Recensioni (pagina evento)
+### Attività 2.1.3.2.1 – Design della sezione Recensioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.3.2.2 – Implementazione sezione Recensioni (pagina evento)
+### Attività 2.1.3.2.2 – Implementazione della sezione Recensioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 6.0 | 4.0 | 6.0 | 6.0 |
 | 2 | 8.0 | 6.0 | 6.0 | 6.7 | 6.0 |
 
-### Attività 2.1.3.3.1 – Design navigazione verso la schermata di checkout
+### Attività 2.1.3.3.1 – Design della navigazione verso la schermata di checkout
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 2.1.3.3.2 – Implementazione schermata di checkout
+### Attività 2.1.3.3.2 – Implementazione della schermata di checkout
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 2.1.3.4.1 – Design funzionalità di like
+### Attività 2.1.3.4.1 – Design della funzionalità di like
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 1.0 | 1.0 | 1.3 | 1.0 |
 | 2 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 2.1.3.4.2 – Implementazione funzionalità di like
+### Attività 2.1.3.4.2 – Implementazione della funzionalità di like
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 1.0 | 2.0 | 1.7 | 2.0 |
 | 2 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.4.1.1 – Design sezione biglietti (checkout)
+### Attività 2.1.4.1.1 – Design della sezione dei biglietti nella schermata di checkout
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 8.0 | 4.0 | 6.7 | 8.0 |
 | 2 | 8.0 | 8.0 | 6.0 | 7.3 | 8.0 |
 
-### Attività 2.1.4.1.2 – Implementazione sezione biglietti (checkout)
+### Attività 2.1.4.1.2 – Implementazione della sezione dei biglietti nella schermata di checkout
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 12.0 | 16.0 | 12.0 | 12.0 |
 | 2 | 16.0 | 16.0 | 16.0 | 16.0 | 16.0 |
 
-### Attività 2.1.4.3.1 – Design sistema completamento acquisto
+### Attività 2.1.4.3.1 – Design del sistema di completamento dell'acquisto
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 8.0 | 8.0 | 6.0 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.4.3.2 – Implementazione sistema completamento acquisto
+### Attività 2.1.4.3.2 – Implementazione del sistema di completamento dell'acquisto
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 16.0 | 12.0 | 12.0 | 12.0 |
 | 2 | 16.0 | 16.0 | 16.0 | 16.0 | 16.0 |
 
-### Attività 2.1.5.1.1 – Design schermata delle recensioni
+### Attività 2.1.5.1.1 – Design della schermata delle recensioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 8.0 | 4.0 | 6.0 | 6.0 |
 | 2 | 8.0 | 8.0 | 6.0 | 7.3 | 8.0 |
 
-### Attività 2.1.5.1.2 – Implementazione schermata delle recensioni
+### Attività 2.1.5.1.2 – Implementazione della schermata delle recensioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 12.0 | 8.0 | 9.3 | 8.0 |
 | 2 | 10.0 | 12.0 | 8.0 | 10.0 | 10.0 |
 
-### Attività 2.1.5.2.1 – Design resoconto rating organizzazione
+### Attività 2.1.5.2.1 – Design del resoconto del rating dell'organizzazione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 2.0 | 3.3 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.5.2.2 – Implementazione resoconto rating
+### Attività 2.1.5.2.2 – Implementazione del resoconto del rating
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 8.0 | 8.0 | 6.7 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.5.3.1 – Design sistema inserimento recensione
+### Attività 2.1.5.3.1 – Design del sistema di inserimento di una recensione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 4.0 | 4.0 | 5.3 | 4.0 |
 | 2 | 6.0 | 4.0 | 4.0 | 4.7 | 4.0 |
 
-### Attività 2.1.5.3.2 – Implementazione sistema inserimento recensione
+### Attività 2.1.5.3.2 – Implementazione del sistema di inserimento di una recensione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.6.1.1 – Design sezione informazioni profilo
+### Attività 2.1.6.1.1 – Design della sezione delle informazioni del profilo
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 2.0 | 4.0 | 3.3 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.6.1.2 – Implementazione sezione informazioni profilo
+### Attività 2.1.6.1.2 – Implementazione della sezione delle informazioni del profilo
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 4.0 | 4.0 | 4.7 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.6.2.1 – Design sistema modifica profilo
+### Attività 2.1.6.2.1 – Design del sistema di modifica del profilo
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.6.2.2 – Implementazione sistema modifica profilo
+### Attività 2.1.6.2.2 – Implementazione del sistema di modifica del profilo
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 6.0 | 8.0 | 6.0 | 6.0 |
 | 2 | 6.0 | 7.0 | 8.0 | 7.0 | 7.0 |
 
-### Attività 2.1.6.3.1 – Design sistema modifica impostazioni account
+### Attività 2.1.6.3.1 – Design del sistema di modifica delle impostazioni dell'account
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 8.0 | 8.0 | 7.3 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.6.3.2 – Implementazione sistema modifica impostazioni account
+### Attività 2.1.6.3.2 – Implementazione del sistema di modifica delle impostazioni dell'account
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 16.0 | 12.0 | 12.0 | 12.0 |
 | 2 | 16.0 | 16.0 | 16.0 | 16.0 | 16.0 |
 
-### Attività 2.1.6.4.1 – Design sistema follow/unfollow
+### Attività 2.1.6.4.1 – Design del sistema di follow/unfollow
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 1.0 | 1.0 | 2.0 | 1.0 |
 | 2 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 2.1.6.4.2 – Implementazione sistema follow/unfollow
+### Attività 2.1.6.4.2 – Implementazione del sistema di follow/unfollow
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 1.0 | 2.0 | 1.7 | 2.0 |
 | 2 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 2.1.6.5.1 – Design sistema contatto profili organizzazioni
+### Attività 2.1.6.5.1 – Design del sistema di contatto nei profili delle organizzazioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 2.1.6.5.2 – Implementazione sistema contatto profili organizzazioni
+### Attività 2.1.6.5.2 – Implementazione del sistema di contatto nei profili delle organizzazioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 1.0 | 1.0 | 1.3 | 1.0 |
 | 2 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 2.1.6.6.1 – Design sezione eventi con like
+### Attività 2.1.6.6.1 – Design della sezione degli eventi a cui l'utente ha messo like
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 6.0 | 4.0 | 4.7 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.6.6.2 – Implementazione sezione eventi con like
+### Attività 2.1.6.6.2 – Implementazione della sezione degli eventi a cui l'utente ha messo like
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 8.0 | 6.0 | 6.0 | 6.0 |
 | 2 | 6.0 | 6.0 | 6.0 | 6.0 | 6.0 |
 
-### Attività 2.1.6.7.1 – Design sezione eventi a cui l'utente ha partecipato
+### Attività 2.1.6.7.1 – Design della sezione degli eventi a cui l'utente ha partecipato
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 2.0 | 2.0 | 2.7 | 2.0 |
 | 2 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.6.7.2 – Implementazione sezione eventi a cui l'utente ha partecipato
+### Attività 2.1.6.7.2 – Implementazione della sezione degli eventi a cui l'utente ha partecipato
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.6.8.1 – Design sezione eventi creati da un'organizzazione
+### Attività 2.1.6.8.1 – Design della sezione degli eventi creati da un'organizzazione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 1.0 | 3.0 | 4.0 |
 | 2 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.6.8.2 – Implementazione sezione eventi creati da un'organizzazione
+### Attività 2.1.6.8.2 – Implementazione della sezione degli eventi creati da un'organizzazione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 2.0 | 2.0 | 2.7 | 2.0 |
 | 2 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.6.9.1 – Design sezione bozze eventi
+### Attività 2.1.6.9.1 – Design della sezione delle bozze degli eventi
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.6.9.2 – Implementazione sezione bozze eventi
+### Attività 2.1.6.9.2 – Implementazione della sezione delle bozze degli eventi
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.6.10.1 – Design sistema visualizzazione statistiche
+### Attività 2.1.6.10.1 – Design del sistema di visualizzazione delle statistiche
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 4.0 | 6.0 | 6.0 | 6.0 |
 | 2 | 6.0 | 4.0 | 6.0 | 5.3 | 6.0 |
 
-### Attività 2.1.6.10.2 – Implementazione sistema visualizzazione statistiche
+### Attività 2.1.6.10.2 – Implementazione del sistema di visualizzazione delle statistiche
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.6.11.1 – Design sezione recensioni (profilo organizzazione)
+### Attività 2.1.6.11.1 – Design della sezione delle recensioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.6.11.2 – Implementazione sezione recensioni (profilo organizzazione)
+### Attività 2.1.6.11.2 – Implementazione della sezione delle recensioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 8.0 | 4.0 | 5.3 | 4.0 |
 | 2 | 6.0 | 6.0 | 6.0 | 6.0 | 6.0 |
 
-### Attività 2.1.7.1.1 – Design schermata biglietti
+### Attività 2.1.7.1.1 – Design della schermata dei biglietti
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 4.0 | 6.0 | 6.0 | 6.0 |
 | 2 | 6.0 | 6.0 | 6.0 | 6.0 | 6.0 |
 
-### Attività 2.1.7.1.2 – Implementazione schermata biglietti
+### Attività 2.1.7.1.2 – Implementazione della schermata dei biglietti
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 8.0 | 8.0 | 7.3 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.8.1.1 – Design sezione conversazioni
+### Attività 2.1.8.1.1 – Design della sezione delle conversazioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 2.0 | 3.3 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.8.1.2 – Implementazione sezione conversazioni
+### Attività 2.1.8.1.2 – Implementazione della sezione delle conversazioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 6.0 | 8.0 | 6.0 | 6.0 |
 | 2 | 6.0 | 6.0 | 6.0 | 6.0 | 6.0 |
 
-### Attività 2.1.8.2.1 – Design schermata chat
+### Attività 2.1.8.2.1 – Design della schermata delle chat
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.8.2.2 – Implementazione schermata chat
+### Attività 2.1.8.2.2 – Implementazione della schermata delle chat
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 8.0 | 8.0 | 7.3 | 8.0 |
 
-### Attività 2.1.8.3.1 – Design funzionalità ricerca conversazioni
+### Attività 2.1.8.3.1 – Design della funzionalità di ricerca delle conversazioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.8.3.2 – Implementazione ricerca conversazioni
+### Attività 2.1.8.3.2 – Implementazione della schermata di ricerca delle conversazioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.9.1.1 – Design sezione informazioni evento
+### Attività 2.1.9.1.1 – Design della sezione delle informazioni dell'evento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.9.1.2 – Implementazione sezione informazioni evento
+### Attività 2.1.9.1.2 – Implementazione della sezione delle informazioni dell'evento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.9.2.1 – Design funzionalità gestione evento
+### Attività 2.1.9.2.1 – Design delle funzionalità di gestione dell'evento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 2.0 | 4.0 | 4.0 | 4.0 |
 | 2 | 4.0 | 2.0 | 2.0 | 2.7 | 2.0 |
 
-### Attività 2.1.9.2.2 – Implementazione funzionalità gestione evento
+### Attività 2.1.9.2.2 – Implementazione delle funzionalità di gestione dell'evento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 2.0 | 2.0 | 2.7 | 2.0 |
 | 2 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 2.1.10.1.1 – Design schermata registrazione/login
+### Attività 2.1.10.1.1 – Design della schermata di registrazione/login
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.10.1.2 – Implementazione schermata registrazione/login
+### Attività 2.1.10.1.2 – Implementazione della schermata di registrazione/login
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 6.0 | 6.0 | 6.0 | 6.0 |
 
-### Attività 2.1.11.1.1 – Design schermata scansione biglietti
+### Attività 2.1.11.1.1 – Design della schermata di scansione biglietti
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 4.0 | 6.0 | 6.0 | 6.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.1.11.1.2 – Implementazione schermata scansione biglietti
+### Attività 2.1.11.1.2 – Implementazione della schermata di scansione biglietti
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 6.0 | 8.0 | 6.7 | 6.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.12.1.1 – Design sistema di navigazione
+### Attività 2.1.12.1.1 – Design del sistema di navigazione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.12.1.2 – Implementazione sistema di navigazione
+### Attività 2.1.12.1.2 – Implementazione del sistema di navigazione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -595,14 +595,14 @@ _Unità: ore/uomo (ore/u)_
 | 1 | 4.0 | 4.0 | 6.0 | 4.7 | 4.0 |
 | 2 | 6.0 | 6.0 | 6.0 | 6.0 | 6.0 |
 
-### Attività 2.3.1.1 – Individuazione Principali Task per Usability Test
+### Attività 2.3.1.1 – Individuazione dei Principali Task Per Valutare l'usabilità
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 12.0 | 8.0 | 8.0 | 8.0 |
 | 2 | 8.0 | 12.0 | 8.0 | 9.3 | 8.0 |
 
-### Attività 2.3.1.2 – Contatto Utenti Target e Organizzazione Sessioni
+### Attività 2.3.1.2 – Contatto Utenti Target e Organizzazione Sessioni di Usability Test
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -657,9 +657,9 @@ _Unità: ore/uomo (ore/u)_
 | 1 | 8.0 | 12.0 | 16.0 | 12.0 | 12.0 |
 | 2 | 12.0 | 12.0 | 12.0 | 12.0 | 12.0 |
 
-## 3 Aggiornamento Sistema
+## 3 Aggiornamento Sistema Esistente
 
-### Attività 3.1.1 – Scelta provider OAuth2
+### Attività 3.1.1 – Scelta provider OAuth2 (e.g. Google)
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -703,13 +703,13 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.2.1.2 – Documentazione API endpoint RBS 3.2.1
+### Attività 3.2.1.2 – Documentazione API con endpoint RBS 3.2.1
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.2.1.3 – Testing funzionalità RBS 3.2.1
+### Attività 3.2.1.3 – Testing della funzionalità RBS 3.2.1
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -721,20 +721,20 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.2.2.2 – Integrazione campo posizione in tutti i servizi
+### Attività 3.2.2.2 – Integrazione campo posizizione in tutti i servizi che lo richiedono
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 4.0 | 4.0 | 3.3 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 3.2.2.3 – Documentazione API endpoint RBS 3.2.2
+### Attività 3.2.2.3 – Documentazione API con endpoint RBS 3.2.2
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.2.2.4 – Testing funzionalità RBS 3.2.2
+### Attività 3.2.2.4 – Testing della funzionalità RBS 3.2.2
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -747,13 +747,13 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.1.2 – Documentazione API notifica RBS 3.3.1
+### Attività 3.3.1.2 – Aggiornamento Documentazione API con notifica RBS 3.3.1
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.1.3 – Testing notifica RBS 3.3.1
+### Attività 3.3.1.3 – Testing della funzionalità di notifica RBS 3.3.1
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -765,13 +765,13 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.2.2 – Documentazione API notifica RBS 3.3.2
+### Attività 3.3.2.2 – Aggiornamento Documentazione API con notifica RBS 3.3.2
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.2.3 – Testing notifica RBS 3.3.2
+### Attività 3.3.2.3 – Testing della funzionalità di notifica RBS 3.3.2
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -783,13 +783,13 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.3.2 – Documentazione API notifica RBS 3.3.3
+### Attività 3.3.3.2 – Aggiornamento Documentazione API con notifica RBS 3.3.3
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.3.3 – Testing notifica RBS 3.3.3
+### Attività 3.3.3.3 – Testing della funzionalità di notifica RBS 3.3.3
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -801,13 +801,13 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.4.2 – Documentazione API notifica RBS 3.3.4
+### Attività 3.3.4.2 – Aggiornamento Documentazione API con notifica RBS 3.3.4
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.4.3 – Testing notifica RBS 3.3.4
+### Attività 3.3.4.3 – Testing della funzionalità di notifica RBS 3.3.4
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -819,13 +819,13 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.5.2 – Documentazione API notifica RBS 3.3.5
+### Attività 3.3.5.2 – Aggiornamento Documentazione API con notifica RBS 3.3.5
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.5.3 – Testing notifica RBS 3.3.5
+### Attività 3.3.5.3 – Testing della funzionalità di notifica RBS 3.3.5
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -837,13 +837,13 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.6.2 – Documentazione API notifica RBS 3.3.6
+### Attività 3.3.6.2 – Aggiornamento Documentazione API con notifica RBS 3.3.6
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.6.3 – Testing notifica RBS 3.3.6
+### Attività 3.3.6.3 – Testing della funzionalità di notifica RBS 3.3.6
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -855,13 +855,13 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.7.2 – Documentazione API notifica RBS 3.3.7
+### Attività 3.3.7.2 – Aggiornamento Documentazione API con notifica RBS 3.3.7
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.7.3 – Testing notifica RBS 3.3.7
+### Attività 3.3.7.3 – Testing della funzionalità di notifica RBS 3.3.7
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -873,26 +873,26 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.8.2 – Documentazione API notifica RBS 3.3.8
+### Attività 3.3.8.2 – Aggiornamento Documentazione API con notifica RBS 3.3.8
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.3.8.3 – Testing notifica RBS 3.3.8
+### Attività 3.3.8.3 – Testing della funzionalità di notifica RBS 3.3.8
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.4.1 – Sviluppo servizio Subscription
+### Attività 3.4.1 – Sviluppo servizio Subscription per la gestione dei piani di abbonamento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 16.0 | 20.0 | 16.0 | 17.3 | 16.0 |
 | 2 | 16.0 | 16.0 | 16.0 | 16.0 | 16.0 |
 
-### Attività 3.4.2 – Integrazione servizio Subscription con il sistema
+### Attività 3.4.2 – Integrazione servizio Subscription con il resto del sistema
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -918,31 +918,31 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 3.5.1.2 – Documentazione API endpoint RBS 3.5.1
+### Attività 3.5.1.2 – Aggiornamento Documentazione API con endpoint RBS 3.5.1
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.5.1.3 – Testing funzionalità RBS 3.5.1
+### Attività 3.5.1.3 – Testing della funzionalità RBS 3.5.1
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.5.2.1 – Aggiornamento endpoint checkout (RBS 3.5.2)
+### Attività 3.5.2.1 – Aggiornamento endpoint di checkout per supportare RBS 3.5.2 nel servizio Ticketing
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 3.5.2.2 – Documentazione API endpoint checkout aggiornato
+### Attività 3.5.2.2 – Aggiornamento Documentazione API endpoint di checkout
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.5.2.3 – Testing checkout aggiornato (RBS 3.5.2)
+### Attività 3.5.2.3 – Testing della funzionalità di checkout aggiornata con RBS 3.5.2
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -955,67 +955,67 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 3.5.3.2 – Documentazione API endpoint RBS 3.5.3
+### Attività 3.5.3.2 – Aggiornamento Documentazione API con endpoint RBS 3.5.3
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.5.3.3 – Testing funzionalità RBS 3.5.3
+### Attività 3.5.3.3 – Testing della funzionalità RBS 3.5.3
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 1.0 | 1.0 | 1.3 | 1.0 |
 | 2 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.6.1 – Aggiornamento login/registrazione con OAuth2 (web)
+### Attività 3.6.1 – Aggiornamento schermata di registrazione/login con supporto OAuth2
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 2.0 | 2.0 | 2.7 | 2.0 |
 | 2 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 3.6.2 – Integrazione API geolocalizzazione (web)
+### Attività 3.6.2 – Integrazione API servizio di geolocalizzazione
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 5.0 | 4.0 | 5.0 | 5.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 3.6.3 – Supporto nuove notifiche (web)
+### Attività 3.6.3 – Supporto nuove notifiche
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 3.0 | 2.0 | 2.0 | 2.3 | 2.0 |
 | 2 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 |
 
-### Attività 3.6.4 – Supporto codice sconto in checkout (web)
+### Attività 3.6.4 – Supporto inserimento codice sconto nella schermata di checkout
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 2.0 | 2.0 | 2.7 | 2.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 3.6.5 – Design schermata piani di abbonamento (web)
+### Attività 3.6.5 – Design schermata per i piani di abbonamento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 3.6.6 – Implementazione schermata piani di abbonamento (web)
+### Attività 3.6.6 – Implementazione schermata per i piani di abbonamento
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 3.6.7 – Integrazione abbonamento + statistiche organizzazioni (web)
+### Attività 3.6.7 – Integrazione sistema di abbonamento nelle schermate del sito, con aggiunta schermata ad hoc per le statistiche di performance per le organizzazioni
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 16.0 | 16.0 | 20.0 | 17.3 | 16.0 |
 | 2 | 16.0 | 16.0 | 16.0 | 16.0 | 16.0 |
 
-### Attività 3.7.1.1 – Verificare performance endpoint (< 200ms nel 99% dei casi)
+### Attività 3.7.1.1 – Verificare che i nuovi endpoint e quelli aggiornati rispettino il requisito di performance
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
