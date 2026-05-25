@@ -861,6 +861,32 @@ def generate_gantt_word(state, ore_giorno, efficienza):
 OUTPUT_GANTT_JSON         = "eventonight.gantt"
 OUTPUT_GANTT_JSON_NOPRED  = "eventonight_nopred.gantt"
 OUTPUT_GANTT_JSON_COLORED = "eventonight_colored.gantt"
+MILESTONES_CSV            = "milestones.csv"
+
+def _load_milestones():
+    """Legge milestones.csv. Colonne: nome_milestone, task_data, task_posizione.
+
+    - task_data / task_posizione sono TASK ID sequenziali (interi 1-based)
+      come mostrati nella colonna TASK ID del piano Word/Gantt.
+    - Righe con task_data o task_posizione non numerico vengono ignorate
+      (utile per linee di commento che iniziano con '#').
+    """
+    if not os.path.exists(MILESTONES_CSV):
+        return []
+    import csv
+    out = []
+    with open(MILESTONES_CSV, encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            name = (row.get("nome_milestone") or "").strip()
+            if not name or name.startswith("#"):
+                continue
+            try:
+                t_data = int((row.get("task_data") or "").strip())
+                t_pos  = int((row.get("task_posizione") or "").strip())
+            except (ValueError, TypeError):
+                continue
+            out.append({"name": name, "task_data": t_data, "task_posizione": t_pos})
+    return out
 
 _ADVANCED_DEFAULT = {
     "columns": [
@@ -1006,6 +1032,8 @@ def generate_gantt_json(state, ore_giorno, efficienza):
 
     n_subtasks = len(collected)          # 1-based IDs 1..n_subtasks per le foglie
     data = []
+    ends_by_taskid = {}                  # TaskID → end_dt, per le milestone
+    group_of_taskid = {}                 # TaskID → (group_idx in data, subtask_idx in subtasks)
     for macro_idx, top in enumerate(group_order):
         top_id   = n_subtasks + 1 + macro_idx   # IDs immediatamente dopo i subtask, nessun gap
         subtasks = []
@@ -1048,6 +1076,8 @@ def generate_gantt_json(state, ore_giorno, efficienza):
                 "isManual":     True,
                 "_color":       _assignment_color(assegnato),   # usato dal colored
             })
+            ends_by_taskid[sub_task_id]   = end_dt
+            group_of_taskid[sub_task_id]  = (macro_idx, len(subtasks) - 1)
 
         macro_start = min(starts)
         macro_end   = max(ends)
@@ -1067,6 +1097,50 @@ def generate_gantt_json(state, ore_giorno, efficienza):
             "DurationUnit": "day",
             "subtasks":     subtasks,
         })
+
+    # ── INJECTION MILESTONES ────────────────────────────────────────────
+    # Le milestone vivono come subtask del gruppo macro a cui appartiene
+    # `task_posizione`, inserite immediatamente dopo di esso. La data della
+    # milestone coincide con la EndDate del task referenziato da `task_data`.
+    milestones    = _load_milestones()
+    n_macros      = len(group_order)
+    next_ms_id    = n_subtasks + n_macros + 1
+    ms_offset     = {}   # task_posizione → numero di milestone già inserite dopo di lui
+    skipped       = []
+    for ms in milestones:
+        end_dt = ends_by_taskid.get(ms["task_data"])
+        pos    = group_of_taskid.get(ms["task_posizione"])
+        if end_dt is None or pos is None:
+            skipped.append(ms)
+            continue
+        group_idx, sub_idx = pos
+        offset    = ms_offset.get(ms["task_posizione"], 0)
+        insert_at = sub_idx + 1 + offset
+        ms_dict = {
+            "TaskID":       next_ms_id,
+            "TaskName":     ms["name"],
+            "StartDate":    iso(end_dt),
+            "EndDate":      iso(end_dt),
+            "Duration":     0,
+            "Predecessor":  "",
+            "resources":    [],
+            "Progress":     0,
+            "color":        "331",
+            "info":         "<p><br></p>",
+            "DurationUnit": "day",
+            "isMilestone":  True,
+            "_color":       "331",
+        }
+        data[group_idx]["subtasks"].insert(insert_at, ms_dict)
+        # tutti i task del gruppo a posizione >= insert_at scalano di +1
+        for tid, (g_idx, s_idx) in list(group_of_taskid.items()):
+            if g_idx == group_idx and s_idx >= insert_at:
+                group_of_taskid[tid] = (g_idx, s_idx + 1)
+        ms_offset[ms["task_posizione"]] = offset + 1
+        next_ms_id += 1
+    if skipped:
+        for ms in skipped:
+            print(f"  ⚠ Milestone '{ms['name']}' saltata: task_data={ms['task_data']} o task_posizione={ms['task_posizione']} non valido.")
 
     output = {
         "data":             data,
@@ -1126,7 +1200,7 @@ def _ask_duration_params():
     else:
         ore_giorno = 8.0
 
-    eff_raw = input("  Efficienza % [Invio = 100]: ").strip().replace(",", ".").rstrip("%")
+    eff_raw = input("  Efficienza % [Invio = 85]: ").strip().replace(",", ".").rstrip("%")
     if eff_raw:
         try:
             eff_val = float(eff_raw)
@@ -1134,10 +1208,10 @@ def _ask_duration_params():
                 raise ValueError
             efficienza = eff_val / 100 if eff_val > 1 else eff_val
         except ValueError:
-            print("  Valore non valido, uso 100%.")
-            efficienza = 1.0
+            print("  Valore non valido, uso 85%.")
+            efficienza = 0.85
     else:
-        efficienza = 1.0
+        efficienza = 0.85
 
     ore_str = f"{int(ore_giorno)}" if ore_giorno == int(ore_giorno) else f"{ore_giorno:g}"
     eff_pct = efficienza * 100

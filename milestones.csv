@@ -1,0 +1,11 @@
+nome_milestone,task_data,task_posizione
+# nome_milestone : etichetta visibile della milestone (rombo nel Gantt)
+# task_data      : TASK ID (numerico, 1-based, come mostrato nella colonna TASK ID del piano Word/Gantt) da cui prendere la DATA FINE → diventa la data della milestone
+# task_posizione : TASK ID dopo il quale la milestone viene inserita nel .gantt (la milestone vivrà come subtask del gruppo macro di questo task)
+# Esempio (rimuovi il #):
+# Fine Pubblicazione App,97,97
+# Fine OAuth2,103,103
+1. Completamento aggiornamento del backend,134,147
+2. Prima fase di sviluppo dell’app mobile,39,39
+3. Aggiornamento frontend web,156,156
+4. Completamento sviluppo app e pubblicazione sugli store,96,96
