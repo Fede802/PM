@@ -1,6 +1,6 @@
 # Stime Delphi – EvenToNight
 
-_Generato il 2026-05-25 19:54_  
+_Generato il 2026-05-26 17:32_  
 _Unità: ore/uomo (ore/u)_
 
 ## 1 Marketing
@@ -255,14 +255,14 @@ _Unità: ore/uomo (ore/u)_
 | 1 | 8.0 | 12.0 | 16.0 | 12.0 | 12.0 |
 | 2 | 16.0 | 16.0 | 16.0 | 16.0 | 16.0 |
 
-### Attività 2.1.4.3.1 – Design del sistema di completamento dell'acquisto
+### Attività 2.1.4.2.1 – Design del sistema di completamento dell'acquisto
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 2.0 | 8.0 | 8.0 | 6.0 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.1.4.3.2 – Implementazione del sistema di completamento dell'acquisto
+### Attività 2.1.4.2.2 – Implementazione del sistema di completamento dell'acquisto
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
@@ -623,39 +623,44 @@ _Unità: ore/uomo (ore/u)_
 | 1 | 8.0 | 6.0 | 8.0 | 7.3 | 8.0 |
 | 2 | 8.0 | 8.0 | 8.0 | 8.0 | 8.0 |
 
-### Attività 2.4.1.1 – Configurazione account Google Play
+### Attività 2.4.1 – Configurazione account Google Play
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 2.0 | 3.3 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.4.1.2 – Configurazione account App Store
+### Attività 2.4.2 – Configurazione account App Store
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.4.1.3 – Preparazione asset (icone, screenshot, descrizioni)
+### Attività 2.4.3 – Preparazione asset (icone, screenshot, descrizioni)
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 8.0 | 12.0 | 16.0 | 12.0 | 12.0 |
 | 2 | 12.0 | 12.0 | 12.0 | 12.0 | 12.0 |
 
-### Attività 2.4.1.4 – Build e firma dell'app
+### Attività 2.4.4 – Build e firma dell'app
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 6.0 | 4.0 | 4.0 | 4.7 | 4.0 |
 | 2 | 4.0 | 4.0 | 4.0 | 4.0 | 4.0 |
 
-### Attività 2.4.1.5 – Submission e gestione review
+### Attività 2.4.5 – Pubblicazione App
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
-| 1 | 8.0 | 12.0 | 16.0 | 12.0 | 12.0 |
-| 2 | 12.0 | 12.0 | 12.0 | 12.0 | 12.0 |
+| 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+### Attività 2.4.6 – Gestione Review
+
+| Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
+|------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
+| 1 | 48.0 | 48.0 | 48.0 | 48.0 | 48.0 |
 
 ## 3 Aggiornamento Sistema Esistente
 
@@ -721,7 +726,7 @@ _Unità: ore/uomo (ore/u)_
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|
 | 1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-### Attività 3.2.2.2 – Integrazione campo posizizione in tutti i servizi che lo richiedono
+### Attività 3.2.2.2 – Integrazione campo posizione in tutti i servizi che lo richiedono
 
 | Round | Alice Alfonsi | Federico Bravetti | Tommaso Brini | Media | Mediana |
 |------:|:-------------:|:-----------------:|:-------------:|------:|--------:|

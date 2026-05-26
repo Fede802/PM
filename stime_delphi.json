@@ -577,42 +577,6 @@
       "median": 16.0
     }
   ],
-  "2.1.4.3.1": [
-    {
-      "round": 1,
-      "alice": 2.0,
-      "federico": 8.0,
-      "tommaso": 8.0,
-      "mean": 6.0,
-      "median": 8.0
-    },
-    {
-      "round": 2,
-      "alice": 8.0,
-      "federico": 8.0,
-      "tommaso": 8.0,
-      "mean": 8.0,
-      "median": 8.0
-    }
-  ],
-  "2.1.4.3.2": [
-    {
-      "round": 1,
-      "alice": 8.0,
-      "federico": 16.0,
-      "tommaso": 12.0,
-      "mean": 12.0,
-      "median": 12.0
-    },
-    {
-      "round": 2,
-      "alice": 16.0,
-      "federico": 16.0,
-      "tommaso": 16.0,
-      "mean": 16.0,
-      "median": 16.0
-    }
-  ],
   "2.1.5.1.1": [
     {
       "round": 1,
@@ -1431,88 +1395,6 @@
       "median": 8.0
     }
   ],
-  "2.4.1.1": [
-    {
-      "round": 1,
-      "alice": 4.0,
-      "federico": 4.0,
-      "tommaso": 2.0,
-      "mean": 3.3333,
-      "median": 4.0
-    },
-    {
-      "round": 2,
-      "alice": 4.0,
-      "federico": 4.0,
-      "tommaso": 4.0,
-      "mean": 4.0,
-      "median": 4.0
-    }
-  ],
-  "2.4.1.2": [
-    {
-      "round": 1,
-      "alice": 4.0,
-      "federico": 4.0,
-      "tommaso": 4.0,
-      "mean": 4.0,
-      "median": 4.0
-    }
-  ],
-  "2.4.1.3": [
-    {
-      "round": 1,
-      "alice": 8.0,
-      "federico": 12.0,
-      "tommaso": 16.0,
-      "mean": 12.0,
-      "median": 12.0
-    },
-    {
-      "round": 2,
-      "alice": 12.0,
-      "federico": 12.0,
-      "tommaso": 12.0,
-      "mean": 12.0,
-      "median": 12.0
-    }
-  ],
-  "2.4.1.4": [
-    {
-      "round": 1,
-      "alice": 6.0,
-      "federico": 4.0,
-      "tommaso": 4.0,
-      "mean": 4.6667,
-      "median": 4.0
-    },
-    {
-      "round": 2,
-      "alice": 4.0,
-      "federico": 4.0,
-      "tommaso": 4.0,
-      "mean": 4.0,
-      "median": 4.0
-    }
-  ],
-  "2.4.1.5": [
-    {
-      "round": 1,
-      "alice": 8.0,
-      "federico": 12.0,
-      "tommaso": 16.0,
-      "mean": 12.0,
-      "median": 12.0
-    },
-    {
-      "round": 2,
-      "alice": 12.0,
-      "federico": 12.0,
-      "tommaso": 12.0,
-      "mean": 12.0,
-      "median": 12.0
-    }
-  ],
   "3.1.1": [
     {
       "round": 1,
@@ -2221,6 +2103,126 @@
       "tommaso": 4.0,
       "mean": 4.0,
       "median": 4.0
+    }
+  ],
+  "2.1.4.2.1": [
+    {
+      "round": 1,
+      "alice": 2.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 6.0,
+      "median": 8.0
+    },
+    {
+      "round": 2,
+      "alice": 8.0,
+      "federico": 8.0,
+      "tommaso": 8.0,
+      "mean": 8.0,
+      "median": 8.0
+    }
+  ],
+  "2.1.4.2.2": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 16.0,
+      "tommaso": 12.0,
+      "mean": 12.0,
+      "median": 12.0
+    },
+    {
+      "round": 2,
+      "alice": 16.0,
+      "federico": 16.0,
+      "tommaso": 16.0,
+      "mean": 16.0,
+      "median": 16.0
+    }
+  ],
+  "2.4.1": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 2.0,
+      "mean": 3.3333,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.4.2": [
+    {
+      "round": 1,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.4.3": [
+    {
+      "round": 1,
+      "alice": 8.0,
+      "federico": 12.0,
+      "tommaso": 16.0,
+      "mean": 12.0,
+      "median": 12.0
+    },
+    {
+      "round": 2,
+      "alice": 12.0,
+      "federico": 12.0,
+      "tommaso": 12.0,
+      "mean": 12.0,
+      "median": 12.0
+    }
+  ],
+  "2.4.4": [
+    {
+      "round": 1,
+      "alice": 6.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.6667,
+      "median": 4.0
+    },
+    {
+      "round": 2,
+      "alice": 4.0,
+      "federico": 4.0,
+      "tommaso": 4.0,
+      "mean": 4.0,
+      "median": 4.0
+    }
+  ],
+  "2.4.5": [
+    {
+      "round": 1,
+      "alice": 1.0,
+      "federico": 1.0,
+      "tommaso": 1.0,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "2.4.6": [
+    {
+      "round": 1,
+      "alice": 48.0,
+      "federico": 48.0,
+      "tommaso": 48.0,
+      "mean": 48.0,
+      "median": 48.0
     }
   ]
 }
