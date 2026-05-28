@@ -941,17 +941,18 @@ def _parse_resources(assegnato_raw):
         for rid in _split_assignees(assegnato_raw)
     ]
 
-# colori numerici proprietari del tool (solo codici della palette nativa).
-# Per le combinazioni si usa il colore del primo assegnatario in ordine
-# alfabetico/ID, perché i codici 4xx-7xx non corrispondono a colori validi.
+# Colori distinti per ogni combinazione di assegnatari.
+# I single usano i codici della palette nativa; le combinazioni usano hex
+# per garantire colori diversi (e visivamente leggibili).
 _ASSIGNMENT_COLORS = {
     frozenset([1]):       "121",   # Alice solo
     frozenset([2]):       "211",   # Federico solo
     frozenset([3]):       "301",   # Tommaso solo
-    frozenset([1, 2]):    "121",   # Alice + Federico  → colore Alice
-    frozenset([1, 3]):    "121",   # Alice + Tommaso   → colore Alice
-    frozenset([2, 3]):    "211",   # Federico + Tommaso → colore Federico
-    frozenset([1, 2, 3]): "121",   # tutti              → colore Alice
+    frozenset([1, 2]):    "91",    # Alice + Federico
+    frozenset([1, 3]):    "31",    # Alice + Tommaso
+    frozenset([2, 3]):    "271",   # Federico + Tommaso
+    frozenset([1, 2, 3]): "181",   # tutti e 3
+    # Milestone: "331" (gestito altrove, non toccato)
 }
 
 def _assignment_color(assegnato_raw):

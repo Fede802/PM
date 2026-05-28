@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <title>RBS – Espansione EvenToNight</title>
+    <style>body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #111;
+    padding: 30px 40px;
+  }
+
+  h1 {
+    color: #088634;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul ul {
+    padding-left: 24px;
+    border-left: 2px solid #333;
+    margin: 4px 0 4px 8px;
+  }
+
+  li {
+    margin: 5px 0;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 99px;
+    font-size: 13.5px;
+    font-weight: 500;
+  }
+
+  /* =====================
+     CLASSI COLORE
+     Cambia solo i valori hex
+  ===================== */
+  .v1 { background: #166534; color: #fff; }   /* verde scuro  */
+  .v2 { background: #16a34a; color: #fff; }   /* verde medio  */
+  .v3 { background: #86efac; color: #14532d; } /* verde chiaro */
+  .v4 { background: #d1fae5; color: #166534; } /* verde super chiaro */
+
+  .a1 { background: #d74819; color: #fff; }   /* arancio scuro  */
+  .a2 { background: #e57335; color: #fff; }   /* arancio medio  */
+  .a3 { background: #fed7aa; color: #7c2d12; } /* arancio chiaro */
+
+  .g { background: #555; color: #eee; } /* grigio neutro */
+
+  @media print {
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    body {
+      background: #fff !important;
+      color: #111 !important;
+    }
+    ul ul {
+      border-left-color: #ccc !important;
+    }
+  }</style>
+  </head>
+  <body>
+    <h1>Espansione della piattaforma EvenToNight</h1>
+    <ul>
+      <li>
+        <span class="tag v1">1 Marketing</span>
+        <ul>
+          <li>
+            <span class="tag v2">1.1 Coinvolgimento Organizzazioni</span>
+          </li>
+          <li>
+            <span class="tag v2">1.2 Coinvolgimento Utenti</span>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <span class="tag v1">2 App Mobile</span>
+        <ul>
+          <li>
+            <span class="tag v2">2.1 Interfaccia Utente</span>
+            <ul>
+              <li>
+                <span class="tag v3">2.1.1 Home</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.1.1 Il Sistema Deve Suggerire eventi agli utenti non registrati</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.1.2 Il Sistema Deve Suggerire eventi personalizzati agli utenti registrati</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.2 Esplora</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.2.1 Il sistema deve permettere agli utente di cercare eventi e utenti</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.2.2 Il Sistema in assenza di filtri e ricerche attive deve suggerire eventi agli utenti non registrati</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.2.3 Il Sistema in assenza di filtri e ricerche attive deve suggerire eventi personalizzati agli utenti registrati</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.2.4 Il Sistema deve permettere all'utente di filtrare gli eventi</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.3 Pagina dell'evento</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.3.1 Il Sistema Deve Mostrare i dettagli dell'evento</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.3.2 Il Sistema Deve Permettere la visualizzazione delle recensioni (se presenti) nel caso in cui l'evento sia concluso</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.3.3 Il Sistema Deve Permettere agli utenti registrati di acquistare i biglietti per l'evento</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.3.4 Il Sistema Deve Permettere agli utenti registrati di mettere like all'evento</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.4 Pagina di checkout</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.4.1 Il Sistema Deve Mostrare agli utenti registrati i biglietti disponibili per l'evento e permettere la selezione</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.4.2 Il Sistema Deve Permettere agli utenti registrati di completare l'acquisto dei biglietti selezionati</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.5 Recensioni</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.5.1 Il Sistema Deve Mostrare le recensioni relative all'organizzazione selezionata</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.5.2 Il Sistema Deve Mostrare un resoconto del rating dell'organizzazione</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.5.3 Il Sistema Deve permettere all'utente di lasciare al massimo una recensione per ogni evento dell'organizzazione a cui ha partecipato</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.6 Profilo</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.6.1 Il Sistema Deve Mostrare le informazioni del profilo utente</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.2 Il Sistema Deve Permettere all'utente di modificare le informazioni del proprio profilo</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.3 Il Sistema Deve permettere all'utente di modificare le impostazioni del proprio account</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.4 Il Sistema Deve permettere ad un utente registrato di (smettere di) seguire l'utente di cui sta visualizzando il profilo</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.5 Il Sistema Deve permettere ad un utente registrato di contattare l'utente se è un'organizzazione</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.6 In tutti i profili il Sistema Deve Mostrare una sezione riguardo gli eventi a cui quell'utente ha messo like</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.7 In tutti i profili il Sistema Deve Mostrare una sezione riguardo gli eventi a cui quell'utente ha partecipato</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.8 Se il profilo è di un organizzazione il Sistema Deve Mostrare una sezione riguardo gli eventi creati da quest'ultima</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.9 Il Sistema Deve Mostrare una sezione riguardo le bozze degli eventi nel proprio profilo di organizzazione</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.10 Il Sistema Deve permettere ad un'organizzazione di vedere le statistiche di performance del proprio profilo se ha sottoscritto un piano di abbonamento</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.6.11 Il Sistema Deve Permettere di visualizzare le recensioni (se presenti) nel caso in cui si stia visualizzando il profilo di un'organizzazione</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.7 Biglietti</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.7.1 Il Sistema Deve Mostrare i biglietti acquistati dall'utente potendo visualizzare il qr code e scaricarli in pdf</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.8 Chat</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.8.1 Il Sistema Deve Mostrare tutte le conversazioni tra utente e organizzazioni</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.8.2 Il Sistema Deve Mostrare la chat con l'utente una volta selezionata la relativa conversazione, permettendo l'invio di messaggi</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.8.3 Il sistema deve permettere di cercare gli utenti mostrando tra i risultati le conversazioni esistenti o permettendo di iniziarne di nuove</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.9 Creazione Evento</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.9.1 Il Sistema Deve Permettere di inserire tutte le informazioni sull'evento</span>
+                </li>
+                <li>
+                  <span class="tag v4">2.1.9.2 Il Sistema Deve Permettere di pubblicare/modificare/salvare come bozza/annullare/cancellare un evento</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.10 Registrazione/Login</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.10.1 Il Sistema deve permettere ad un utente di registrarsi o accedere alla piattaforma</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.11 Scansione biglietti</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.11.1 Il Sistema deve permettere di scansionare il qr code di un biglietto per validarlo, mostrando un errore in caso sia stato già utilizzato</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.12 Sistema di navigazione</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.12.1 Il Sistema di Navigazione deve permettere all'utente di navigare tra la schermata home, esplora, chat, profilo, biglietti e mostrare le notifiche. Nel caso di un'organizzaione deve essere possibile anche creare un nuovo evento e scansionare i biglietti</span>
+                </li>
+              </ul>
+              <li>
+                <span class="tag v3">2.1.13 Requisiti Non Funzionali</span>
+              </li>
+              <ul>
+                <li>
+                  <span class="tag v4">2.1.13.1 Il frontend deve essere responsive</span>
+                </li>
+              </ul>
+            </ul>
+          </li>
+          <li>
+            <span class="tag v2">2.2 Notifiche push</span>
+          </li>
+          <li>
+            <span class="tag v2">2.3 Testing UX</span>
+            <ul>
+              <li>
+                <span class="tag v3">2.3.1 Il sistema deve essere validato attraverso dei test di usabilità prima del rilascio sugli store</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="tag v2">2.4 Pubblicazione</span>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <span class="tag v1">3 Aggiornamento Sistema Esistente</span>
+        <ul>
+          <li>
+            <span class="tag v2">3.1 Registrazione con OAuth2</span>
+          </li>
+          <li>
+            <span class="tag v2">3.2 Servizio Geolocalizzazione</span>
+          </li>
+          <ul>
+            <li>
+              <span class="tag v3">3.2.1 Il Sistema deve fornire un endpoint per ottenere luoghi data una stringa di query includendo il link a Google Maps</span>
+            </li>
+            <li>
+              <span class="tag v3">3.2.2 Il Sistema deve fornire informazioni sulla posizione corrente una volta autorizzato</span>
+            </li>
+          </ul>
+          <li>
+            <span class="tag v2">3.3 Servizio Notifiche</span>
+          </li>
+          <ul>
+            <li>
+              <span class="tag v3">3.3.1 Il Sistema deve notificare un utente quando un insieme di utenti che segue ha messo like ad un certo evento</span>
+            </li>
+            <li>
+              <span class="tag v3">3.3.2 Il Sistema deve notificare un utente quando un insieme di utenti che segue ha comprato i biglietti per un certo evento</span>
+            </li>
+            <li>
+              <span class="tag v3">3.3.3 Il Sistema deve notificare un utente quando i biglietti per un evento a cui ha messo like stanno per terminare</span>
+            </li>
+            <li>
+              <span class="tag v3">3.3.4 Il Sistema deve notificare un utente quando un evento a cui ha messo like si terrà a breve</span>
+            </li>
+            <li>
+              <span class="tag v3">3.3.5 Il Sistema deve notificare un utente quando un evento per cui ha comprato i biglietti si terrà a breve</span>
+            </li>
+            <li>
+              <span class="tag v3">3.3.6 Il Sistema deve notificare un utente quando i biglietti di un evento a cui ha messo like sono tornati disponibili</span>
+            </li>
+            <li>
+              <span class="tag v3">3.3.7 Il Sistema deve notificare un utente abbonato quando il suo abbonamento sta per scadere se non ha attivato il rinnovo automatico</span>
+            </li>
+            <li>
+              <span class="tag v3">3.3.8 Il Sistema deve notificare un utente se degli eventi vicino a lui si terranno a breve nel caso abbia attivato la localizzazione dall'app</span>
+            </li>
+          </ul>
+          <li>
+            <span class="tag v2">3.4 Piani di Abbonamento</span>
+          </li>
+          <li>
+            <span class="tag v2">3.5 Servizio Ticketing</span>
+          </li>
+          <ul>
+            <li>
+              <span class="tag v3">3.5.1 Il Sistema deve permettere di creare codici sconto, da utilizzare in fase di checkout, agli amministratori</span>
+            </li>
+            <li>
+              <span class="tag v3">3.5.2 Il Sistema deve permettere agli utenti di inserire un codice sconto in fase di checkout</span>
+            </li>
+            <li>
+              <span class="tag v3">3.5.3 Il Sistema deve monitorare l'utilizzo dei codici sconto e renderne i dati consultabili dagli amministratori</span>
+            </li>
+          </ul>
+          <li>
+            <span class="tag v2">3.6 Frontend Web</span>
+          </li>
+          <li>
+            <span class="tag v2">3.7 Requisiti Non Funzionali</span>
+          </li>
+          <ul>
+            <li>
+              <span class="tag v3">3.7.1 Ogni endpoint deve rispondere sotto i 200ms nel 99% dei casi</span>
+            </li>
+            <li>
+              <span class="tag v3">3.7.2 Il frontend deve essere responsive</span>
+            </li>
+          </ul>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
