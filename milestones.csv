@@ -5,7 +5,7 @@ nome_milestone,task_data,task_posizione
 # Esempio (rimuovi il #):
 # Fine Pubblicazione App,97,97
 # Fine OAuth2,103,103
-1. Completamento aggiornamento del backend,134,147
-2. Prima fase di sviluppo dell’app mobile,35,35
-3. Aggiornamento frontend web,156,156
-4. Completamento sviluppo app e pubblicazione sugli store,96,96
+M1. Completamento aggiornamento del backend,134,147
+M2. Prima fase di sviluppo dell’app mobile,35,35
+M3. Aggiornamento frontend web,156,156
+M4. Completamento sviluppo app e pubblicazione sugli store,97,97

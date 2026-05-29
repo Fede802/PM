@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=1860pt,paperheight=6500pt,margin=20pt]{geometry}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\definecolor{brand}{HTML}{1C4587}
+\definecolor{doclink}{HTML}{1155CC}
+\definecolor{subt}{HTML}{666666}
+\definecolor{brandbg}{HTML}{D6E4F0}
+% Palette colori barre Gantt (lista per assegnatari)
+\definecolor{ganAli}{HTML}{00F800}   % Alice solo
+\definecolor{ganFed}{HTML}{0078F8}   % Federico solo
+\definecolor{ganTom}{HTML}{F800F8}   % Tommaso solo
+\definecolor{ganAF}{HTML}{F88000}    % Alice + Federico (arancione)
+\definecolor{ganFT}{HTML}{8000F8}    % Federico + Tommaso
+\definecolor{ganAll}{HTML}{00F8F8}   % tutti e 3
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\begin{document}
+\begin{center}
+{\color{brand}\fontsize{60}{72}\selectfont\bfseries EvenToNight}\\[12pt]
+{\color{doclink}\fontsize{42}{50}\selectfont\bfseries Diagramma di Gantt}\\[8pt]
+{\color{subt}\fontsize{28}{34}\selectfont\itshape Sviluppo App \& Espansione Della Piattaforma EvenToNight}
+\end{center}
+\vspace{24pt}
+{\fontsize{28}{34}\selectfont\bfseries Legenda colori — Assegnatari\par}
+\vspace{8pt}
+\fontsize{22}{28}\selectfont
+\renewcommand{\arraystretch}{1.4}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{|c|l|}
+\hline
+\rowcolor{brandbg}\textbf{Colore} & \textbf{Assegnatario} \\\hline
+\cellcolor{ganAli}\hspace{4cm} & Alice Alfonsi \\\hline
+\cellcolor{ganFed}\hspace{4cm} & Federico Bravetti \\\hline
+\cellcolor{ganTom}\hspace{4cm} & Tommaso Brini \\\hline
+\cellcolor{ganAF}\hspace{4cm}  & Alice Alfonsi + Federico Bravetti \\\hline
+\cellcolor{ganFT}\hspace{4cm}  & Federico Bravetti + Tommaso Brini \\\hline
+\cellcolor{ganAll}\hspace{4cm} & Alice Alfonsi + Federico Bravetti + Tommaso Brini \\\hline
+\end{tabular}
+\vspace{30pt}
+
+\noindent\includegraphics[width=\linewidth]{Gantt.pdf}
+\end{document}

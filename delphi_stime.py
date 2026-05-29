@@ -948,8 +948,8 @@ _ASSIGNMENT_COLORS = {
     frozenset([1]):       "121",   # Alice solo
     frozenset([2]):       "211",   # Federico solo
     frozenset([3]):       "301",   # Tommaso solo
-    frozenset([1, 2]):    "91",    # Alice + Federico
-    frozenset([1, 3]):    "31",    # Alice + Tommaso
+    frozenset([1, 2]):    "31",    # Alice + Federico
+    frozenset([1, 3]):    "91",    # Alice + Tommaso
     frozenset([2, 3]):    "271",   # Federico + Tommaso
     frozenset([1, 2, 3]): "181",   # tutti e 3
     # Milestone: "331" (gestito altrove, non toccato)
